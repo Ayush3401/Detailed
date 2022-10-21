@@ -17,6 +17,7 @@ using namespace std;
 // unsigned long page_count=0;
 pthread_mutex_t lock;
 pthread_barrier_t b;
+
 sem_t sem1, sem2;
 
 string mem;
@@ -29,7 +30,7 @@ vector<uint64_t> local_pages[num_nodes];
 // page-walk and page allocation combined (just for ease)
 // page table walk for getting/allocating physical memory address or
 // telling if it remote address or not
-long int local_page_table_walk(pgd &_pgd, long int vaddr, local_addr_space &L, int node_no)
+pair<bool, long int> page_table_walk(pgd &_pgd, long int vaddr, local_addr_space &L, int &remote_pool, int node_no)
 {
 	// used to check weather this page should be allocated on local or remote memory
 	// pages are allocated alternately on local/emote memory until local is available
@@ -41,6 +42,7 @@ long int local_page_table_walk(pgd &_pgd, long int vaddr, local_addr_space &L, i
 
 	unsigned long pgd_vaddr = 0L, pud_vaddr = 0L, pmd_vaddr = 0L, pte_vaddr = 0L, page_offset_addr = 0L;
 	split_vaddr(pgd_vaddr, pud_vaddr, pmd_vaddr, pte_vaddr, page_offset_addr, vaddr);
+	bool is_local = true;
 
 	// this logic is used to allocate pages between local and remote, rather than completely using local memory before,
 	// it can be allocated in a round-robin manner, one in local, one in remote
@@ -52,87 +54,135 @@ long int local_page_table_walk(pgd &_pgd, long int vaddr, local_addr_space &L, i
 	if (remote_found == true || local_found == true)
 	{
 		if (remote_found == true)
-			return -1;
-		else if (local_found == true)
-			goto A;
+			is_local = false;
+		// else if (local_found == true)
+		// goto A;
 	}
-	else if (remote_found == false || local_found == false)
+	else
 	{
-		if (remote_found == false)
+		if (page_counter[node_no] % 2 == 0)
 		{
-			if (page_counter[node_no] % 2 == 0)
-			{
-				remote_pages[node_no].push_back(virt_page_addr);
-				page_counter[node_no]++;
-				return -1;
-			}
+			remote_pages[node_no].push_back(virt_page_addr);
+			page_counter[node_no]++;
+			is_local = false;
 		}
-		if (local_found == false)
+		else
 		{
-			if (page_counter[node_no] % 2 == 1)
-			{
-				local_pages[node_no].push_back(virt_page_addr);
-				page_counter[node_no]++;
-			}
+			local_pages[node_no].push_back(virt_page_addr);
+			page_counter[node_no]++;
 		}
 	}
-
-A:
-
+	// A:
 	// cout<<"\npmd_addr  "<<pmd_vaddr<<"\n";
 
 	/*	cout<<pgd_vaddr<<" "<<pud_vaddr<<" "<<pmd_vaddr<<" " <<pte_vaddr<<" "<<page_offset_addr<<" "<<page_counter[node_no];
 		cin.get();*/
 	_pud = _pgd.access_in_pgd(pgd_vaddr);
-	if (_pud == nullptr && L.free_local()) // && page_counter[node_no]%2==1)
+	if (_pud == nullptr) // && page_counter[node_no]%2==1)
 	{
+		if (is_local && !L.free_local())
+			is_local = false;
 		_pgd.add_in_pgd(pgd_vaddr);
 		_pud = _pgd.access_in_pgd(pgd_vaddr);
 	}
-	else if (_pud == nullptr && (!L.free_local())) // || page_counter[node_no]%2==0))
-		return -1;
+
+	// else if (_pud == nullptr && (!L.free_local())) // || page_counter[node_no]%2==0))
+	// 	return -1;
 
 	_pmd = _pud->access_in_pud(pud_vaddr);
-	if (_pmd == nullptr && L.free_local()) // && page_counter[node_no]%2==1)
+	if (_pmd == nullptr) // && page_counter[node_no]%2==1)
 	{
+		if (is_local && !L.free_local())
+			is_local = false;
 		_pud->add_in_pud(pud_vaddr);
 		_pmd = _pud->access_in_pud(pud_vaddr);
 	}
-	else if (_pmd == nullptr && (!L.free_local())) // || page_counter[node_no]%2==0))
-		return -1;
+	// else if (_pmd == nullptr && (!L.free_local())) // || page_counter[node_no]%2==0))
+	// 	return -1;
 
 	_pte = _pmd->access_in_pmd(pmd_vaddr);
-	if (_pte == nullptr && L.free_local()) // && page_counter[node_no]%2==1)
+	if (_pte == nullptr) // && page_counter[node_no]%2==1)
 	{
+		if (is_local && !L.free_local())
+			is_local = false;
 		_pmd->add_in_pmd(pmd_vaddr);
 		_pte = _pmd->access_in_pmd(pmd_vaddr);
 	}
-	else if (_pte == nullptr && (!L.free_local())) // || page_counter[node_no]%2==0))
-		return -1;
+	// else if (_pte == nullptr && (!L.free_local())) // || page_counter[node_no]%2==0))
+	// 	return -1;
 
 	_page = _pte->access_in_pte(pte_vaddr);
-	if (_page == nullptr && L.free_local()) // && page_counter[node_no]%2==1)
+	if (_page == nullptr) // && page_counter[node_no]%2==1)
 	{
-		long int pte_paddr = L.allocate_local_page(); // will request a new page from local memory
-		_pte->add_in_pte(pte_vaddr, pte_paddr);		  // new page entry at vaddr to paddr map
-		_page = _pte->access_in_pte(pte_vaddr);
+		if (is_local && L.free_local())
+		{
+			long int pte_paddr = L.allocate_local_page(); // will request a new page from local memory
+			_pte->add_in_pte(pte_vaddr, pte_paddr);		  // new page entry at vaddr to paddr map
+			_page = _pte->access_in_pte(pte_vaddr);
+		}
+		else
+		{
+			is_local = false;
+			if (!L.free_remote())
+			{
+				// increament per node chunk requests per window
+				node_epoch_chunk_count[node_no]++;
+				//		use the required algorithm to decide the remote_pool for requesting new memory //global memory manager responsible for this
+				remote_pool = smart_idle();
+				//		if(window_no>=2)
+				//		{cout<<"\nAllocating in rem pool "<<remote_pool;cin.get();}
+				int chunk_size = 4;									  // node_chunk_request_size[node_no];
+				request_remote_memory(L, R[remote_pool], chunk_size); // 4MBs
+			}
+			unsigned long pte_paddr = L.allocate_remote_page(); // will request a new page from Remote memory
+			_pte->add_in_pte(pte_vaddr, pte_paddr);				// new page entry at vaddr to paddr map
+			_page = _pte->access_in_pte(pte_vaddr);
+		}
 	}
-	else if (_page == nullptr && (!L.free_local())) // || page_counter[node_no]%2==0))
-		return -1;
-
+	// else if (_page == nullptr && (!L.free_local())) // || page_counter[node_no]%2==0))
+	// 	return -1;
 	long int paddr = _page->get_page_base_addr(pte_vaddr);
-	if (L.is_local(paddr))
+	if (is_local && L.is_local(paddr))
 	{
 		// cout<<"\nLocal Page referred "<<paddr;
 		paddr = paddr << 12;
 		paddr = paddr + page_offset_addr;
 		// cout<<"\nphysica_addr ="<<hex<<"0x"<<setfill('0')<<setw(16)<<(paddr);
-		return paddr;
+		return {is_local, paddr};
 	}
+	is_local = false;
+	if (remote_pool == -1)
+		remote_pool = L.find_remote_pool(paddr);
 	else
 	{
-		return -1;
+		//	test=true;
+		//	cout<<"\nLocal Page number  "<<paddr<<"in remote pool=  "<<remote_pool<<"\n";//<<endl;
 	}
+
+	// Cannot be true, already checked this condition before sending to remote handler.
+	if (L.is_local(paddr))
+	{
+		cout << "\npage_num: " << paddr;
+		cin.get();
+		invalid << "\nwrong address in local";
+	}
+
+	// convert local physical page address to remote memory pool page address
+	paddr = L.remote_page_addr(paddr, remote_pool);
+	/*if(test==true)
+	{
+		cout<<"\nRemote Page number  "<<paddr;
+		cin.get();
+	}*/
+	paddr = paddr << 12;
+	paddr = paddr + page_offset_addr;
+
+	if (remote_pool < 0 || remote_pool >= num_mem_pools)
+	{
+		invalid << "\nwrong";
+		cin.get();
+	}
+	return {is_local, paddr};
 }
 
 bool local_flag = false;
@@ -209,14 +259,19 @@ void *local_handler(void *node)
 
 		// long double current_window = temp.cycle / window_cycles;
 		uint64_t current_request_cycle = (double)(temp.cycle);
-		while (current_request_cycle == common_clock && !trace_in.eof())
+		while (current_request_cycle == node_clock && !trace_in.eof())
 		{
-			long int local_paddr = local_page_table_walk(_pgd[((node_id - 1) * 3) + temp.procid - 1], temp.addr, L[node_id - 1], (node_id - 1));
+			cout << "node " << node_clock << " " << current_request_cycle << "\n";
+			int remote_pool = -1;
+			pair<bool, long int> page_pair = page_table_walk(_pgd[((node_id - 1) * 3) + temp.procid - 1], temp.addr, L[node_id - 1], remote_pool, (node_id - 1));
+			long int paddr = page_pair.second;
+			bool is_local = page_pair.first;
 			bool isWrite = (temp.r == 'W' ? true : false);
 			is_read = true;
 			count_access[obj_id]++;
-			if (local_paddr != -1)
+			if (is_local)
 			{
+				unsigned long int local_paddr = paddr;
 				local_access[node_id - 1]++;
 				local_paddr = local_paddr & 0xffffffffffc0;
 				// long int cycle_diff = current_request_cycle - last_cycle_no;
@@ -228,7 +283,7 @@ void *local_handler(void *node)
 				last_cycle_no = current_request_cycle;
 				trans_id++;
 			}
-			else if (local_paddr == -1)
+			else
 			{
 				static uint64_t remote_trans_id = 0;
 				// last_cycle_no=current_request_cycle;
@@ -242,9 +297,38 @@ void *local_handler(void *node)
 				remote_access.trans_id = remote_trans_id;
 				remote_access.cycle = current_request_cycle; //+dis_latency;	//adding 300 extra cycle to each remote access as disaggregated latency
 				remote_access.miss_cycle_num = current_request_cycle;
-				pthread_mutex_lock(&lock);
-				rem_mem_stream.push_back(remote_access);
-				pthread_mutex_unlock(&lock);
+				unsigned long int remote_paddr = page_pair.second;
+				if (remote_pool != -1)
+				{
+					unsigned long page_addr = get_page_addr(remote_paddr);
+					// if(i==(rem_mem_stream.size()-1))
+					if (!R[remote_pool].validate_addr(page_addr, node_id - 1))
+					{
+						invalid << "\nInvalid Page";
+						cin.get();
+						goto B;
+					}
+					remote_access.dest = remote_pool;
+					last_cycle_no_in_this_epoch[remote_pool] = remote_access.cycle;
+					per_pool_access_count[node_id - 1][remote_pool]++;
+					// increament per-window access count for this remote pool
+					R[remote_pool].inc_access_count();
+					current_sample_access_count[remote_pool]++;
+					node_epoch_access_count[node_id - 1]++;
+
+					// send memory request to network component
+					to_trans_layer(remote_access, packet_queue_node);
+				}
+				else
+				{
+					// this case won't happen ever
+					invalid << "\nIn-valid remote pool returned";
+					invalid << "hex" << remote_paddr << dec << remote_pool;
+					L[node_id - 1].display_mapping(invalid);
+					//		cin.get();
+					//		break;
+				}
+			B:
 				pthread_barrier_wait(&b);
 				remote_trans_id++;
 			}
@@ -263,13 +347,16 @@ void *local_handler(void *node)
 		if (node_id == 1)
 		{
 			to_remote_memory();
-			if (common_clock % window_cycles == 0)
+			if (node_clock % window_cycles == 0)
 			{
 				print_mem_stats(window_no);
 				window_no++;
 			}
-			common_clock++;
+			node_clock++;
+			while (pool_clock < node_clock)
+				;
 		}
+		pthread_barrier_wait(&b);
 		// else if (current_window > window_no)
 		// {
 		// all threads wait until all of them completes a window,
@@ -330,6 +417,7 @@ int main(int argc, char *argv[])
 	pthread_mutex_init(&lock_queue, NULL);
 	pthread_mutex_init(&lock_update, NULL);
 	pthread_barrier_init(&b, NULL, num_nodes);
+	pthread_barrier_init(&p, NULL, num_mem_pools);
 
 	sem_init(&sem1, 0, 0);
 	sem_init(&sem2, 0, 0);
@@ -357,19 +445,20 @@ int main(int argc, char *argv[])
 
 	// last batch of remote memory accesses has been sent and all accesses
 	// from all nodes have been parsed
+	cout << "here\n";
 	rem_flag = true;
 
-	for (int j = 0; j < num_nodes; j++)
-	{
-		for (int i = 0; i < 1000000; i++)
-			local_mem[j]->update();
-	}
+	// for (int j = 0; j < num_nodes; j++)
+	// {
+	// 	for (int i = 0; i < 1000000; i++)
+	// 		local_mem[j]->update();
+	// }
 
 	for (long i = 1; i <= (num_mem_pools); i++)
 	{
 		// give extra cycles to complete rest of the memory accesses
-		for (int j = 0; j < 10000000; j++)
-			remote_mem[i - 1]->update();
+		// for (int j = 0; j < 10000000; j++)
+		// 	remote_mem[i - 1]->update();
 		pthread_join(remote_mem_threads[i - 1], NULL);
 	}
 

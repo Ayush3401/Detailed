@@ -1,0 +1,685 @@
+ =======================================================
+ ========================2===============================
+ ============== Printing Statistics [id:0]==============
+   Total Return Transactions : 0 (0 bytes) aggregate average bandwidth 0.000GB/s
+      -Rank   0 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        0
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   1 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        1
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   2 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        2
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   3 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        3
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   4 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        4
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   5 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        5
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   6 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        6
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   7 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        7
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   8 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        8
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   9 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        9
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   10 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        10
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   11 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        11
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   12 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        12
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   13 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        13
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   14 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        14
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+      -Rank   15 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        15
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+
+ == Pending Transactions : 0 (0)==
+==== Channel [0] ====
+ =======================================================
+ ========================2===============================
+ ============== Printing Statistics [id:0]==============
+   Total Return Transactions : 1481 (94784 bytes) aggregate average bandwidth 0.011GB/s
+      -Rank   0 : 
+        -Reads  : 76 (4864 bytes)
+        -Writes : 30 (1920 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		1108.872 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		899.101 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		786.685 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		964.145 ns
+ == Power Data for Rank        0
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   1 : 
+        -Reads  : 69 (4416 bytes)
+        -Writes : 21 (1344 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		360.601 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		774.339 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		861.928 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		681.352 ns
+ == Power Data for Rank        1
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   2 : 
+        -Reads  : 67 (4288 bytes)
+        -Writes : 26 (1664 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		485.282 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		738.336 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		530.941 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		321.494 ns
+ == Power Data for Rank        2
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   3 : 
+        -Reads  : 61 (3904 bytes)
+        -Writes : 25 (1600 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		373.288 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		537.664 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		406.452 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		342.224 ns
+ == Power Data for Rank        3
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   4 : 
+        -Reads  : 75 (4800 bytes)
+        -Writes : 26 (1664 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		97.878 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		203.377 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		517.146 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		504.132 ns
+ == Power Data for Rank        4
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   5 : 
+        -Reads  : 66 (4224 bytes)
+        -Writes : 28 (1792 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		272.335 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		288.456 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		569.494 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		493.893 ns
+ == Power Data for Rank        5
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   6 : 
+        -Reads  : 59 (3776 bytes)
+        -Writes : 27 (1728 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		782.246 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		735.388 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		600.260 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		492.873 ns
+ == Power Data for Rank        6
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   7 : 
+        -Reads  : 70 (4480 bytes)
+        -Writes : 29 (1856 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		423.320 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		326.467 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		713.662 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		505.378 ns
+ == Power Data for Rank        7
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   8 : 
+        -Reads  : 57 (3648 bytes)
+        -Writes : 30 (1920 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		982.607 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		612.127 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		1371.182 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		595.751 ns
+ == Power Data for Rank        8
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   9 : 
+        -Reads  : 64 (4096 bytes)
+        -Writes : 27 (1728 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		1004.089 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		2081.894 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		592.739 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		528.955 ns
+ == Power Data for Rank        9
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   10 : 
+        -Reads  : 53 (3392 bytes)
+        -Writes : 25 (1600 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		989.961 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		1256.543 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		312.125 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		216.349 ns
+ == Power Data for Rank        10
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   11 : 
+        -Reads  : 61 (3904 bytes)
+        -Writes : 26 (1664 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		973.924 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		1134.858 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		897.379 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		527.943 ns
+ == Power Data for Rank        11
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   12 : 
+        -Reads  : 72 (4608 bytes)
+        -Writes : 29 (1856 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		1257.599 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		1780.038 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		1229.397 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		1125.909 ns
+ == Power Data for Rank        12
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   13 : 
+        -Reads  : 60 (3840 bytes)
+        -Writes : 28 (1792 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		287.996 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		962.850 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		711.003 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		1220.982 ns
+ == Power Data for Rank        13
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   14 : 
+        -Reads  : 70 (4480 bytes)
+        -Writes : 25 (1600 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		781.823 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		1059.765 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		476.532 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		193.648 ns
+ == Power Data for Rank        14
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+      -Rank   15 : 
+        -Reads  : 76 (4864 bytes)
+        -Writes : 23 (1472 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		736.830 ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		986.827 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		897.870 ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		339.897 ns
+ == Power Data for Rank        15
+   Average Power (watts)     : 0.246
+     -Background (watts)     : 0.244
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.001
+ ---  Latency list (253)
+       [lat] : #
+       [30-39] : 12
+       [40-49] : 40
+       [50-59] : 24
+       [60-69] : 21
+       [70-79] : 23
+       [80-89] : 15
+       [90-99] : 13
+       [100-109] : 18
+       [110-119] : 12
+       [120-129] : 12
+       [130-139] : 13
+       [140-149] : 11
+       [150-159] : 10
+       [160-169] : 11
+       [170-179] : 3
+       [180-189] : 7
+       [190-199] : 12
+       [200-209] : 5
+       [210-219] : 6
+       [220-229] : 1
+       [230-239] : 4
+       [240-249] : 5
+       [250-259] : 7
+       [260-269] : 9
+       [270-279] : 7
+       [280-289] : 5
+       [290-299] : 4
+       [300-309] : 8
+       [310-319] : 6
+       [320-329] : 10
+       [330-339] : 5
+       [340-349] : 3
+       [350-359] : 9
+       [360-369] : 5
+       [370-379] : 9
+       [380-389] : 3
+       [390-399] : 6
+       [400-409] : 7
+       [410-419] : 6
+       [420-429] : 7
+       [430-439] : 5
+       [440-449] : 6
+       [450-459] : 6
+       [460-469] : 3
+       [470-479] : 11
+       [480-489] : 2
+       [490-499] : 10
+       [500-509] : 11
+       [510-519] : 4
+       [520-529] : 7
+       [530-539] : 5
+       [540-549] : 8
+       [550-559] : 5
+       [560-569] : 11
+       [570-579] : 6
+       [580-589] : 7
+       [590-599] : 1
+       [600-609] : 8
+       [610-619] : 9
+       [620-629] : 5
+       [630-639] : 9
+       [640-649] : 8
+       [650-659] : 6
+       [660-669] : 11
+       [670-679] : 4
+       [680-689] : 4
+       [690-699] : 6
+       [700-709] : 5
+       [710-719] : 3
+       [720-729] : 3
+       [730-739] : 5
+       [740-749] : 5
+       [750-759] : 2
+       [760-769] : 2
+       [770-779] : 4
+       [780-789] : 4
+       [790-799] : 6
+       [800-809] : 5
+       [810-819] : 5
+       [820-829] : 4
+       [830-839] : 2
+       [840-849] : 3
+       [850-859] : 10
+       [860-869] : 2
+       [870-879] : 4
+       [880-889] : 6
+       [890-899] : 4
+       [910-919] : 3
+       [920-929] : 6
+       [930-939] : 2
+       [940-949] : 7
+       [950-959] : 6
+       [960-969] : 2
+       [970-979] : 1
+       [980-989] : 3
+       [990-999] : 1
+       [1000-1009] : 2
+       [1010-1019] : 1
+       [1020-1029] : 4
+       [1030-1039] : 2
+       [1040-1049] : 1
+       [1050-1059] : 2
+       [1060-1069] : 2
+       [1070-1079] : 2
+       [1080-1089] : 4
+       [1090-1099] : 2
+       [1100-1109] : 3
+       [1110-1119] : 6
+       [1120-1129] : 4
+       [1130-1139] : 2
+       [1140-1149] : 2
+       [1150-1159] : 3
+       [1160-1169] : 10
+       [1170-1179] : 3
+       [1180-1189] : 2
+       [1190-1199] : 4
+       [1200-1209] : 5
+       [1210-1219] : 2
+       [1220-1229] : 4
+       [1230-1239] : 2
+       [1240-1249] : 2
+       [1250-1259] : 2
+       [1260-1269] : 1
+       [1270-1279] : 5
+       [1280-1289] : 8
+       [1290-1299] : 1
+       [1300-1309] : 4
+       [1310-1319] : 3
+       [1320-1329] : 1
+       [1330-1339] : 3
+       [1340-1349] : 5
+       [1350-1359] : 3
+       [1360-1369] : 4
+       [1370-1379] : 1
+       [1380-1389] : 2
+       [1400-1409] : 3
+       [1410-1419] : 3
+       [1420-1429] : 1
+       [1430-1439] : 4
+       [1440-1449] : 4
+       [1450-1459] : 4
+       [1460-1469] : 5
+       [1470-1479] : 2
+       [1480-1489] : 4
+       [1490-1499] : 2
+       [1500-1509] : 4
+       [1510-1519] : 3
+       [1520-1529] : 1
+       [1530-1539] : 2
+       [1540-1549] : 4
+       [1550-1559] : 3
+       [1560-1569] : 1
+       [1570-1579] : 4
+       [1580-1589] : 2
+       [1590-1599] : 3
+       [1600-1609] : 4
+       [1610-1619] : 5
+       [1620-1629] : 1
+       [1640-1649] : 3
+       [1650-1659] : 5
+       [1660-1669] : 5
+       [1670-1679] : 2
+       [1680-1689] : 4
+       [1690-1699] : 4
+       [1700-1709] : 3
+       [1710-1719] : 2
+       [1720-1729] : 8
+       [1730-1739] : 3
+       [1740-1749] : 3
+       [1750-1759] : 3
+       [1760-1769] : 1
+       [1770-1779] : 2
+       [1780-1789] : 1
+       [1800-1809] : 4
+       [1810-1819] : 2
+       [1820-1829] : 1
+       [1830-1839] : 1
+       [1850-1859] : 2
+       [1860-1869] : 2
+       [1870-1879] : 6
+       [1880-1889] : 2
+       [1890-1899] : 1
+       [1900-1909] : 1
+       [1910-1919] : 1
+       [1920-1929] : 3
+       [1930-1939] : 2
+       [1940-1949] : 3
+       [1950-1959] : 2
+       [1960-1969] : 1
+       [1970-1979] : 2
+       [2010-2019] : 1
+       [2020-2029] : 2
+       [2030-2039] : 1
+       [2040-2049] : 1
+       [2050-2059] : 2
+       [2060-2069] : 1
+       [2070-2079] : 1
+       [2090-2099] : 1
+       [2100-2109] : 2
+       [2120-2129] : 1
+       [2130-2139] : 2
+       [2140-2149] : 2
+       [2150-2159] : 1
+       [2160-2169] : 3
+       [2170-2179] : 3
+       [2180-2189] : 3
+       [2190-2199] : 4
+       [2200-2209] : 2
+       [2210-2219] : 1
+       [2230-2239] : 1
+       [2240-2249] : 2
+       [2250-2259] : 3
+       [2270-2279] : 1
+       [2290-2299] : 1
+       [2300-2309] : 1
+       [2310-2319] : 4
+       [2320-2329] : 3
+       [2330-2339] : 1
+       [2340-2349] : 4
+       [2350-2359] : 1
+       [2360-2369] : 1
+       [2400-2409] : 1
+       [2410-2419] : 1
+       [2420-2429] : 1
+       [2440-2449] : 2
+       [2450-2459] : 1
+       [2470-2479] : 2
+       [2490-2499] : 1
+       [2500-2509] : 1
+       [2510-2519] : 1
+       [2550-2559] : 1
+       [2570-2579] : 1
+       [2590-2599] : 2
+       [2620-2629] : 1
+       [2630-2639] : 1
+       [2650-2659] : 1
+       [2670-2679] : 1
+       [2710-2719] : 1
+       [2740-2749] : 1
+       [2760-2769] : 2
+       [2780-2789] : 1
+       [2830-2839] : 1
+       [2840-2849] : 1
+       [2870-2879] : 1
+       [2920-2929] : 1
+       [2940-2949] : 1
+       [2950-2959] : 2
+       [2960-2969] : 2
+       [3110-3119] : 2
+       [3140-3149] : 1
+       [3150-3159] : 1
+       [3220-3229] : 1
+       [3480-3489] : 1
+
+ == Pending Transactions : 0 (10000000)==
+//// Channel [0] ////

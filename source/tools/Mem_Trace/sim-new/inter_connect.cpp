@@ -7,7 +7,7 @@
 using namespace std;
 
 // cycle number for cycle-accurate interconnect simulation
-// uint64_t common_clock = 0;
+// uint64_t node_clock = 0;
 
 #define tx_packet_size 512	// bits (64-bytes)
 #define rx_packet_size 1024 // bits (128-bytes)
@@ -119,7 +119,7 @@ void send_to_source_nic_queue(deque<packet> *packet_queue_source, deque<packet> 
 	{
 		if (packet_queue_source[i].size() > 0)
 		{
-			if (packet_queue_source[i].front().mem.cycle == common_clock && nic_queue_source[i].size() < nic_queue_size)
+			if (packet_queue_source[i].front().mem.cycle == node_clock && nic_queue_source[i].size() < nic_queue_size)
 			{
 				if (packet_queue_source[i].front().is_processing > 0)
 				{
@@ -132,9 +132,9 @@ void send_to_source_nic_queue(deque<packet> *packet_queue_source, deque<packet> 
 						packet_queue_source[i].pop_front();
 						for (int j = 0; j < packet_queue_source[i].size(); j++)
 						{
-							if (packet_queue_source[i].at(j).mem.cycle == common_clock)
+							if (packet_queue_source[i].at(j).mem.cycle == node_clock)
 								packet_queue_source[i].at(j).mem.cycle++;
-							else if (packet_queue_source[i].at(j).mem.cycle > common_clock)
+							else if (packet_queue_source[i].at(j).mem.cycle > node_clock)
 								break;
 						}
 					}
@@ -143,9 +143,9 @@ void send_to_source_nic_queue(deque<packet> *packet_queue_source, deque<packet> 
 						packet_queue_source[i].front().is_processing++;
 						for (int j = 0; j < packet_queue_source[i].size(); j++)
 						{
-							if (packet_queue_source[i].at(j).mem.cycle == common_clock)
+							if (packet_queue_source[i].at(j).mem.cycle == node_clock)
 								packet_queue_source[i].at(j).mem.cycle++;
-							else if (packet_queue_source[i].at(j).mem.cycle > common_clock)
+							else if (packet_queue_source[i].at(j).mem.cycle > node_clock)
 								break;
 						}
 					}
@@ -155,9 +155,9 @@ void send_to_source_nic_queue(deque<packet> *packet_queue_source, deque<packet> 
 					packet_queue_source[i].front().is_processing++;
 					for (int j = 0; j < packet_queue_source[i].size(); j++)
 					{
-						if (packet_queue_source[i].at(j).mem.cycle == common_clock)
+						if (packet_queue_source[i].at(j).mem.cycle == node_clock)
 							packet_queue_source[i].at(j).mem.cycle++;
-						else if (packet_queue_source[i].at(j).mem.cycle > common_clock)
+						else if (packet_queue_source[i].at(j).mem.cycle > node_clock)
 							break;
 					}
 				}
@@ -166,9 +166,9 @@ void send_to_source_nic_queue(deque<packet> *packet_queue_source, deque<packet> 
 			{
 				for (int j = 0; j < packet_queue_source[i].size(); j++)
 				{
-					if (packet_queue_source[i].at(j).mem.cycle == common_clock)
+					if (packet_queue_source[i].at(j).mem.cycle == node_clock)
 						packet_queue_source[i].at(j).mem.cycle++;
-					else if (packet_queue_source[i].at(j).mem.cycle > common_clock)
+					else if (packet_queue_source[i].at(j).mem.cycle > node_clock)
 						break;
 				}
 			}
@@ -203,7 +203,7 @@ void source_to_switch_input_port(deque<packet> *nic_queue_source, deque<packet> 
 		// propagation delay inside RACK is 5ns (max 1 meter assumed)
 		if (nic_queue_source[i].size() > 0)
 		{
-			if (nic_queue_source[i].front().mem.cycle == common_clock && virtual_queue_has_space(i, dest_count, input_port_queue, input_port_queue_size))
+			if (nic_queue_source[i].front().mem.cycle == node_clock && virtual_queue_has_space(i, dest_count, input_port_queue, input_port_queue_size))
 			{
 				if (nic_queue_source[i].front().is_transmitting > 0)
 				{
@@ -218,9 +218,9 @@ void source_to_switch_input_port(deque<packet> *nic_queue_source, deque<packet> 
 						nic_queue_source[i].pop_front();
 						for (int j = 0; j < nic_queue_source[i].size(); j++)
 						{
-							if (nic_queue_source[i].at(j).mem.cycle == common_clock)
+							if (nic_queue_source[i].at(j).mem.cycle == node_clock)
 								nic_queue_source[i].at(j).mem.cycle++;
-							else if (nic_queue_source[i].at(j).mem.cycle > common_clock)
+							else if (nic_queue_source[i].at(j).mem.cycle > node_clock)
 								break;
 						}
 					}
@@ -229,9 +229,9 @@ void source_to_switch_input_port(deque<packet> *nic_queue_source, deque<packet> 
 						nic_queue_source[i].front().is_transmitting++;
 						for (int j = 0; j < nic_queue_source[i].size(); j++)
 						{
-							if (nic_queue_source[i].at(j).mem.cycle == common_clock)
+							if (nic_queue_source[i].at(j).mem.cycle == node_clock)
 								nic_queue_source[i].at(j).mem.cycle++;
-							else if (nic_queue_source[i].at(j).mem.cycle > common_clock)
+							else if (nic_queue_source[i].at(j).mem.cycle > node_clock)
 								break;
 						}
 					}
@@ -241,9 +241,9 @@ void source_to_switch_input_port(deque<packet> *nic_queue_source, deque<packet> 
 					nic_queue_source[i].front().is_transmitting = 1;
 					for (int j = 0; j < nic_queue_source[i].size(); j++)
 					{
-						if (nic_queue_source[i].at(j).mem.cycle == common_clock)
+						if (nic_queue_source[i].at(j).mem.cycle == node_clock)
 							nic_queue_source[i].at(j).mem.cycle++;
-						else if (nic_queue_source[i].at(j).mem.cycle > common_clock)
+						else if (nic_queue_source[i].at(j).mem.cycle > node_clock)
 							break;
 					}
 				}
@@ -254,9 +254,9 @@ void source_to_switch_input_port(deque<packet> *nic_queue_source, deque<packet> 
 		{
 			for (int j = 0; j < nic_queue_source[i].size(); j++)
 			{
-				if (nic_queue_source[i].at(j).mem.cycle == common_clock)
+				if (nic_queue_source[i].at(j).mem.cycle == node_clock)
 					nic_queue_source[i].at(j).mem.cycle++; // increament the cycle number of all packets waiting in the queue
-				else if (nic_queue_source[i].at(j).mem.cycle > common_clock)
+				else if (nic_queue_source[i].at(j).mem.cycle > node_clock)
 					break;
 			}
 		}
@@ -282,7 +282,7 @@ bool packet_available_at_input_queue(int source_no, int vq_num, deque<packet> (&
 {
 	if (input_port_queue[source_no][vq_num].size() > 0)
 	{
-		if (input_port_queue[source_no][vq_num].front().mem.cycle == common_clock)
+		if (input_port_queue[source_no][vq_num].front().mem.cycle == node_clock)
 			return true;
 		else
 			return false;
@@ -302,7 +302,7 @@ int total_ready_packets(int source_count, int dest_count, deque<packet> (&input_
 		{
 			if (input_port_queue[i][j].size() > 0)
 			{
-				if (input_port_queue[i][j].front().mem.cycle == common_clock)
+				if (input_port_queue[i][j].front().mem.cycle == node_clock)
 					ready_packets++;
 			}
 		}
@@ -397,11 +397,11 @@ void switch_input_port_to_output_port(deque<packet> (&input_port_queue)[rows][co
 		{
 			for (int k = 0; k < input_port_queue[i][j].size(); k++)
 			{
-				if (input_port_queue[i][j].at(k).mem.cycle == common_clock)
+				if (input_port_queue[i][j].at(k).mem.cycle == node_clock)
 				{
 					input_port_queue[i][j].at(k).mem.cycle++;
 				}
-				else if (input_port_queue[i][j].at(k).mem.cycle > common_clock)
+				else if (input_port_queue[i][j].at(k).mem.cycle > node_clock)
 					break;
 			}
 		}
@@ -418,7 +418,7 @@ void switch_to_dest_nic_queue(deque<packet> *output_port_queue, deque<packet> *n
 		// propagation delay inside RACK is 5ns (max 1 meter assumed)
 		if (output_port_queue[i].size() > 0)
 		{
-			if (nic_queue_dest[i].size() < nic_queue_size && output_port_queue[i].front().mem.cycle == common_clock)
+			if (nic_queue_dest[i].size() < nic_queue_size && output_port_queue[i].front().mem.cycle == node_clock)
 			{
 				if (output_port_queue[i].front().is_transmitting > 0)
 				{
@@ -431,14 +431,14 @@ void switch_to_dest_nic_queue(deque<packet> *output_port_queue, deque<packet> *n
 						nic_queue_dest[i].push_back(output_port_queue[i].front());
 
 #ifdef testing
-						cout << "\n common_clock " << common_clock << " start_cycle" << output_port_queue[i].front().mem.miss_common_clock << " packet reach at remote pool nic " << i << " packet-id: " << output_port_queue[i].front().mem.id << " node " << output_port_queue[i].front().mem.source;
+						cout << "\n node_clock " << node_clock << " start_cycle" << output_port_queue[i].front().mem.miss_node_clock << " packet reach at remote pool nic " << i << " packet-id: " << output_port_queue[i].front().mem.id << " node " << output_port_queue[i].front().mem.source;
 #endif
 						output_port_queue[i].pop_front();
 						for (int j = 0; j < output_port_queue[i].size(); j++)
 						{
-							if (output_port_queue[i].at(j).mem.cycle == common_clock)
+							if (output_port_queue[i].at(j).mem.cycle == node_clock)
 								output_port_queue[i].at(j).mem.cycle++;
-							else if (output_port_queue[i].at(j).mem.cycle > common_clock)
+							else if (output_port_queue[i].at(j).mem.cycle > node_clock)
 								break;
 						}
 					}
@@ -447,9 +447,9 @@ void switch_to_dest_nic_queue(deque<packet> *output_port_queue, deque<packet> *n
 						output_port_queue[i].front().is_transmitting++;
 						for (int j = 0; j < output_port_queue[i].size(); j++)
 						{
-							if (output_port_queue[i].at(j).mem.cycle == common_clock)
+							if (output_port_queue[i].at(j).mem.cycle == node_clock)
 								output_port_queue[i].at(j).mem.cycle++;
-							else if (output_port_queue[i].at(j).mem.cycle > common_clock)
+							else if (output_port_queue[i].at(j).mem.cycle > node_clock)
 								break;
 						}
 					}
@@ -459,9 +459,9 @@ void switch_to_dest_nic_queue(deque<packet> *output_port_queue, deque<packet> *n
 					output_port_queue[i].front().is_transmitting++;
 					for (int j = 0; j < output_port_queue[i].size(); j++)
 					{
-						if (output_port_queue[i].at(j).mem.cycle == common_clock)
+						if (output_port_queue[i].at(j).mem.cycle == node_clock)
 							output_port_queue[i].at(j).mem.cycle++;
-						else if (output_port_queue[i].at(j).mem.cycle > common_clock)
+						else if (output_port_queue[i].at(j).mem.cycle > node_clock)
 							break;
 					}
 				}
@@ -472,9 +472,9 @@ void switch_to_dest_nic_queue(deque<packet> *output_port_queue, deque<packet> *n
 		{
 			for (int j = 0; j < output_port_queue[i].size(); j++)
 			{
-				if (output_port_queue[i].at(j).mem.cycle == common_clock)
+				if (output_port_queue[i].at(j).mem.cycle == node_clock)
 					output_port_queue[i].at(j).mem.cycle++;
-				else if (output_port_queue[i].at(j).mem.cycle > common_clock)
+				else if (output_port_queue[i].at(j).mem.cycle > node_clock)
 					break;
 			}
 		}
@@ -487,7 +487,7 @@ void send_to_dest_collector_queue(deque<packet> *nic_queue_dest, deque<packet> *
 	{
 		if (nic_queue_dest[i].size() > 0)
 		{
-			if (nic_queue_dest[i].front().mem.cycle == common_clock)
+			if (nic_queue_dest[i].front().mem.cycle == node_clock)
 			{
 				if (nic_queue_dest[i].front().is_processing > 0)
 				{
@@ -498,14 +498,14 @@ void send_to_dest_collector_queue(deque<packet> *nic_queue_dest, deque<packet> *
 						packet_queue_dest[i].push_back(nic_queue_dest[i].front());
 						nic_queue_dest[i].front().out_nic_dest = nic_queue_dest[i].front().mem.cycle;
 #ifdef testing
-						cout << "\n common_clock " << common_clock << " start_cycle" << packet_queue_dest[i].front().mem.miss_common_clock << " packet reach at pool nic " << i << " packet-id: " << packet_queue_dest[i].front().mem.id << " node " << packet_queue_dest[i].front().mem.source;
+						cout << "\n node_clock " << node_clock << " start_cycle" << packet_queue_dest[i].front().mem.miss_node_clock << " packet reach at pool nic " << i << " packet-id: " << packet_queue_dest[i].front().mem.id << " node " << packet_queue_dest[i].front().mem.source;
 #endif
 						nic_queue_dest[i].pop_front();
 						for (int j = 0; j < nic_queue_dest[i].size(); j++)
 						{
-							if (nic_queue_dest[i].at(j).mem.cycle == common_clock)
+							if (nic_queue_dest[i].at(j).mem.cycle == node_clock)
 								nic_queue_dest[i].at(j).mem.cycle++;
-							else if (nic_queue_dest[i].at(j).mem.cycle > common_clock)
+							else if (nic_queue_dest[i].at(j).mem.cycle > node_clock)
 								break;
 						}
 					}
@@ -514,9 +514,9 @@ void send_to_dest_collector_queue(deque<packet> *nic_queue_dest, deque<packet> *
 						nic_queue_dest[i].front().is_processing++;
 						for (int j = 0; j < nic_queue_dest[i].size(); j++)
 						{
-							if (nic_queue_dest[i].at(j).mem.cycle == common_clock)
+							if (nic_queue_dest[i].at(j).mem.cycle == node_clock)
 								nic_queue_dest[i].at(j).mem.cycle++;
-							else if (nic_queue_dest[i].at(j).mem.cycle > common_clock)
+							else if (nic_queue_dest[i].at(j).mem.cycle > node_clock)
 								break;
 						}
 					}
@@ -526,9 +526,9 @@ void send_to_dest_collector_queue(deque<packet> *nic_queue_dest, deque<packet> *
 					nic_queue_dest[i].front().is_processing++;
 					for (int j = 0; j < nic_queue_dest[i].size(); j++)
 					{
-						if (nic_queue_dest[i].at(j).mem.cycle == common_clock)
+						if (nic_queue_dest[i].at(j).mem.cycle == node_clock)
 							nic_queue_dest[i].at(j).mem.cycle++;
-						else if (nic_queue_dest[i].at(j).mem.cycle > common_clock)
+						else if (nic_queue_dest[i].at(j).mem.cycle > node_clock)
 							break;
 					}
 				}
@@ -554,12 +554,12 @@ void simulate_network()
 	// 	cycles_to_run=cycles_to_run+1000000;
 	// }
 
-	// last_run_cycle_count=cycles_to_run-common_clock;
-	// while(common_clock<=cycles_to_run)
+	// last_run_cycle_count=cycles_to_run-node_clock;
+	// while(node_clock<=cycles_to_run)
 	// {
-	if (common_clock % 100000 == 0)
+	if (node_clock % 100000 == 0)
 	{
-		cout << "\nCycles completed:" << common_clock;
+		cout << "\nCycles completed:" << node_clock;
 	}
 	send_to_source_nic_queue(packet_queue_node, tx_nic_queue_node, num_nodes);
 
@@ -573,7 +573,7 @@ void simulate_network()
 
 	/*	for(int i=0;i<num_nodes;i++)
 		if(rx_nic_queue_node[i].size()>0)
-			{cout<<"abc"<<common_clock;cin.get();
+			{cout<<"abc"<<node_clock;cin.get();
 
 			cout<<"\nstart-cycle :"<<start_cycle<<" end_cycle :"<<end_cycle<<" out_switch_inp_port :"<<rx_nic_queue_node[j].front().out_switch_input_port	\
 		 <<" in_switch_inp_port :"<<rx_nic_queue_node[j].front().in_switch_input_port	\
@@ -581,9 +581,9 @@ void simulate_network()
 		 <<" in_switch_out_port :"<<rx_nic_queue_node[j].front().in_switch_output_port;
 		 cin.get();}*/
 
-	// common_clock++;
+	// node_clock++;
 }
-// common_clock=common_clock-last_run_cycle_count;
+// node_clock=node_clock-last_run_cycle_count;
 // 	cout<<"\none-side network_simulation_done this epoch, epoch-num: "<<epoch_num;
 // }
 
@@ -601,11 +601,11 @@ void simulate_network_reverse()
 	// 	cycles_to_run = cycles_to_run + 1000000;
 	// }
 
-	// while (common_clock <= cycles_to_run)
+	// while (node_clock <= cycles_to_run)
 	// {
-	// 	if (common_clock % 100000 == 0)
+	// 	if (node_clock % 100000 == 0)
 	// 	{
-	// 		cout << "\nCycles completed:" << common_clock;
+	// 		cout << "\nCycles completed:" << node_clock;
 	// 	}
 		send_to_source_nic_queue(rx_packet_queue_pool, rx_nic_queue_pool, num_mem_pools);
 
@@ -619,14 +619,14 @@ void simulate_network_reverse()
 
 		/*	for(int i=0;i<num_nodes;i++)
 			if(rx_nic_queue_node[i].size()>0)
-				{cout<<"abc"<<common_clock;cin.get();
+				{cout<<"abc"<<node_clock;cin.get();
 
 				cout<<"\nstart-cycle :"<<start_cycle<<" end_cycle :"<<end_cycle<<" out_switch_inp_port :"<<rx_nic_queue_node[j].front().out_switch_input_port	\
 			 <<" in_switch_inp_port :"<<rx_nic_queue_node[j].front().in_switch_input_port	\
 			 <<" out_switch_out_port :"<<rx_nic_queue_node[j].front().out_switch_output_port	\
 			 <<" in_switch_out_port :"<<rx_nic_queue_node[j].front().in_switch_output_port;
 			 cin.get();}*/
-		// common_clock++;
+		// node_clock++;
 	// }
 
 	// cout << "\nreverse network_simulation_done this epoch, epoch-num: " << epoch_num;

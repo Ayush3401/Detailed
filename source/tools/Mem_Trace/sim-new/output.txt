@@ -1,14 +1,302 @@
 
 Local Mem_Size= 0.000015 GB in node number 0
 Numbee of pages= 4
-ayush/memory_access_completion_log.trc
-ayush/Extra_stats.log
-ayush/pool_select_trace.trc
-ayush/mem_stats
-ayush/net_stats
+aaush/memory_access_completion_log.trc
+aaush/Extra_stats.log
+aaush/pool_select_trace.trc
+aaush/mem_stats
+aaush/net_stats
+node 0 0
+node 0 0
+node 0 0
+pool 0 0 0
+node 0 0
+node 0 0
+node 0 0
 
-Cycles completed:0
-Cycles completed:100000
-Cycles completed:200000
-Cycles completed:300000
-====================Simulation_Complete====================
+Cycles completed:0pool 1 2 0
+pool 2 3 0
+pool 3 4 0
+pool 4 5 0
+pool 5 6 0
+pool 6 7 0
+pool 7 8 0
+pool 8 9 0
+pool 9 10 0
+pool 10 11 0
+pool 11 12 0
+pool 12 13 0
+pool 13 14 0
+pool 14 15 0
+pool 15 16 0
+pool 16 17 0
+pool 17 18 0
+pool 18 19 0
+pool 19 20 0
+node 20 20
+pool 20 20 0
+pool 21 22 0
+pool 22 23 0
+pool 23 24 0
+pool 24 25 0
+pool 25 26 0
+pool 26 27 0
+pool 27 28 0
+pool 28 29 0
+pool 29 30 0
+pool 30 31 0
+pool 31 32 0
+pool 32 33 0
+pool 33 34 0
+pool 34 35 0
+pool 35 36 0
+pool 36 37 0
+pool 37 38 0
+pool 38 39 0
+pool 39 40 0
+node 40 40
+node 40 40
+pool 40 40 0
+pool 41 42 0
+pool 42 43 0
+pool 43 44 0
+pool 44 45 0
+pool 45 46 0
+pool 46 47 0
+pool 47 47 0
+pool 48 49 0
+pool 49 50 0
+pool 50 51 0
+pool 51 52 0
+pool 52 53 0
+pool 53 54 0
+pool 54 55 0
+pool 55 56 0
+pool 56 57 0
+pool 57 58 0
+pool 58 58 0
+pool 59 60 0
+node 60 60
+pool 60 60 0
+pool 61 62 0
+pool 62 62 0
+pool 63 64 0
+pool 64 64 0
+pool 65 66 0
+pool 66 67 0
+pool 67 68 0
+pool 68 68 0
+pool 69 69 0
+pool 70 71 0
+pool 71 71 0
+pool 72 73 0
+pool 73 74 0
+pool 74 75 0
+pool 75 76 0
+pool 76 77 0
+pool 77 78 0
+pool 78 79 0
+pool 79 79 0
+pool 80 80 0
+pool 81 81 0
+node 82 82
+pool 82 82 0
+pool 83 84 0
+pool 84 84 0
+pool 85 86 0
+pool 86 87 0
+pool 87 87 0
+pool 88 89 0
+pool 89 90 1
+pool 90 91 0
+pool 91 91 0
+pool 92 93 0
+pool 93 93 0
+pool 94 95 0
+pool 95 96 0
+pool 96 97 0
+pool 97 98 0
+pool 98 99 0
+pool 99 100 0
+pool 100 101 1
+pool 101 102 0
+pool 102 103 0
+pool 103 104 0
+pool 104 105 0
+pool 105 106 0
+pool 106 107 0
+pool 107 108 0
+pool 108 109 0
+pool 109 110 0
+pool 110 111 0
+pool 111 112 1
+pool 112 113 0
+pool 113 114 0
+pool 114 115 0
+pool 115 116 0
+pool 116 117 0
+pool 117 118 0
+pool 118 119 0
+pool 119 120 0
+pool 120 121 0
+pool 121 122 0
+node 122 122
+pool 122 122 0
+pool 123 124 0
+pool 124 125 0
+pool 125 126 0
+pool 126 127 0
+pool 127 128 0
+pool 128 129 0
+pool 129 130 0
+pool 130 131 0
+pool 131 132 0
+pool 132 133 0
+pool 133 134 1
+pool 134 135 0
+pool 135 136 0
+pool 136 137 0
+pool 137 138 0
+pool 138 139 0
+pool 139 140 0
+pool 140 141 0
+pool 141 142 0
+pool 142 143 0
+pool 143 144 0
+pool 144 145 1
+pool 145 146 0
+pool 146 147 0
+pool 147 148 0
+pool 148 149 0
+pool 149 150 0
+pool 150 151 0
+pool 151 152 0
+pool 152 153 0
+pool 153 154 0
+pool 154 155 0
+pool 155 156 1
+pool 156 157 0
+pool 157 158 0
+pool 158 159 0
+pool 159 160 0
+node 160 160
+pool 160 160 0
+pool 161 162 0
+pool 162 163 0
+pool 163 164 0
+pool 164 165 0
+pool 165 166 0
+pool 166 167 0
+pool 167 168 0
+pool 168 169 0
+pool 169 170 0
+node 170 170
+pool 170 170 0
+pool 171 172 0
+pool 172 173 0
+pool 173 174 0
+pool 174 175 0
+pool 175 176 0
+pool 176 177 0
+pool 177 178 0
+pool 178 179 0
+pool 179 180 0
+pool 180 181 0
+pool 181 182 0
+pool 182 183 0
+pool 183 184 0
+pool 184 185 0
+pool 185 186 0
+pool 186 187 0
+pool 187 188 0
+pool 188 189 0
+pool 189 190 0
+pool 190 191 0
+pool 191 192 0
+pool 192 193 0
+pool 193 194 0
+pool 194 195 0
+pool 195 196 0
+pool 196 197 0
+pool 197 198 0
+pool 198 199 0
+pool 199 200 0
+pool 200 201 0
+pool 201 202 0
+pool 202 203 0
+pool 203 204 0
+pool 204 205 0
+pool 205 206 0
+pool 206 206 0
+pool 207 208 0
+pool 208 209 0
+pool 209 210 0
+pool 210 211 0
+pool 211 212 0
+node 212 212
+pool 212 212 0
+pool 213 214 0
+pool 214 215 0
+pool 215 216 0
+pool 216 217 0
+pool 217 218 0
+pool 218 219 0
+pool 219 220 0
+pool 220 221 0
+pool 221 222 0
+pool 222 223 0
+pool 223 224 0
+pool 224 225 0
+pool 225 226 0
+pool 226 227 0
+pool 227 228 0
+pool 228 229 0
+pool 229 230 0
+pool 230 231 0
+pool 231 231 0
+node 232 232
+pool 232 232 0
+pool 233 234 0
+pool 234 234 0
+pool 235 235 0
+pool 236 236 0
+pool 237 237 0
+pool 238 238 0
+pool 239 239 0
+pool 240 240 0
+pool 241 242 0
+node 242 242
+pool 242 242 0
+pool 243 244 0
+pool 244 245 0
+pool 245 246 0
+pool 246 247 0
+pool 247 247 0
+pool 248 248 0
+pool 249 250 1
+pool 250 251 0
+pool 251 252 0
+pool 252 253 0
+pool 253 254 0
+pool 254 254 0
+pool 255 256 0
+pool 256 257 0
+pool 257 258 0
+pool 258 259 0
+pool 259 260 0
+pool 260 261 1
+pool 261 262 0
+pool 262 263 0
+pool 263 264 0
+node 264 264
+pool 264 264 0
+pool 265 265 0
+pool 266 267 0
+pool 267 267 0
+pool 268 269 0
+pool 269 270 0
+pool 270 270 0
+pool 271 272 0
+pool 272 273 0
+pool 273 274 0
+nod
