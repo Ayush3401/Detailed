@@ -35,6 +35,8 @@ using namespace DRAMSim;
 void calculate_stats_for_packets_received_at_node();
 //network-stats
 
+uint64_t common_clock = 0;
+
 //sent to memory pool
 long double total_packets_per_node[num_nodes];
 long double total_packets_per_pool[num_mem_pools];

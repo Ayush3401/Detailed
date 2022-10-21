@@ -1,0 +1,200 @@
+
+
+=========================Epoch0=========================
+
+---------Node-Wise Average Packet Delay----------
+
+		Sending		Receiving		Total
+
+Node_no-1  : -nan		: -nan			: -nan
+
+
+---------Average Packet Delay at each Input-Port----------
+
+		Sending		Receiving
+
+Input-Port-1 : -nan		 : -nan
+
+
+---------Average Packet Delay at each Output-Port----------
+
+		Sending		Receiving
+
+Output-Port-1 : -nan		 : -nan
+
+
+---------Overall Network Delay for all the Packets from source to destination to source----------
+
+Average Network Delay while transmitting= -nan
+Average Network Delay while Receiving= -nan
+Total Average Network Delay= -nan
+
+
+---------Overall Switch Delay for all the packets----------
+
+Average Switch Delay while transmitting= -nan
+Average Switch Delay while receiving= -nan
+Total Average Switch Delay while receiving and transmitting= -nan
+
+-----------------------------------------------------------
+
+
+
+=========================Epoch1=========================
+
+---------Node-Wise Average Packet Delay----------
+
+		Sending		Receiving		Total
+
+Node_no-1  : 90.3153		: -nan			: -nan
+
+
+---------Average Packet Delay at each Input-Port----------
+
+		Sending		Receiving
+
+Input-Port-1 : 20		 : -nan
+
+
+---------Average Packet Delay at each Output-Port----------
+
+		Sending		Receiving
+
+Output-Port-1 : 5		 : -nan
+
+
+---------Overall Network Delay for all the Packets from source to destination to source----------
+
+Average Network Delay while transmitting= 90.3153
+Average Network Delay while Receiving= -nan
+Total Average Network Delay= -nan
+
+
+---------Overall Switch Delay for all the packets----------
+
+Average Switch Delay while transmitting= 29
+Average Switch Delay while receiving= -nan
+Total Average Switch Delay while receiving and transmitting= -nan
+
+-----------------------------------------------------------
+
+
+
+=========================Epoch1=========================
+
+---------Node-Wise Average Packet Delay----------
+
+		Sending		Receiving		Total
+
+Node_no-1  : 90.069		: -nan			: -nan
+
+
+---------Average Packet Delay at each Input-Port----------
+
+		Sending		Receiving
+
+Input-Port-1 : 20		 : -nan
+
+
+---------Average Packet Delay at each Output-Port----------
+
+		Sending		Receiving
+
+Output-Port-1 : 5		 : -nan
+
+
+---------Overall Network Delay for all the Packets from source to destination to source----------
+
+Average Network Delay while transmitting= 90.069
+Average Network Delay while Receiving= -nan
+Total Average Network Delay= -nan
+
+
+---------Overall Switch Delay for all the packets----------
+
+Average Switch Delay while transmitting= 29
+Average Switch Delay while receiving= -nan
+Total Average Switch Delay while receiving and transmitting= -nan
+
+-----------------------------------------------------------
+
+
+
+=========================Epoch2=========================
+
+---------Node-Wise Average Packet Delay----------
+
+		Sending		Receiving		Total
+
+Node_no-1  : 89.9883		: -nan			: -nan
+
+
+---------Average Packet Delay at each Input-Port----------
+
+		Sending		Receiving
+
+Input-Port-1 : 20		 : -nan
+
+
+---------Average Packet Delay at each Output-Port----------
+
+		Sending		Receiving
+
+Output-Port-1 : 5		 : -nan
+
+
+---------Overall Network Delay for all the Packets from source to destination to source----------
+
+Average Network Delay while transmitting= 89.9883
+Average Network Delay while Receiving= -nan
+Total Average Network Delay= -nan
+
+
+---------Overall Switch Delay for all the packets----------
+
+Average Switch Delay while transmitting= 29
+Average Switch Delay while receiving= -nan
+Total Average Switch Delay while receiving and transmitting= -nan
+
+-----------------------------------------------------------
+
+
+
+=========================Final_epoch=========================
+
+---------Node-Wise Average Packet Delay----------
+
+		Sending		Receiving		Total
+
+Node_no-1  : 89.9676		: -nan			: -nan
+
+
+---------Average Packet Delay at each Input-Port----------
+
+		Sending		Receiving
+
+Input-Port-1 : 20		 : -nan
+
+
+---------Average Packet Delay at each Output-Port----------
+
+		Sending		Receiving
+
+Output-Port-1 : 5		 : -nan
+
+
+---------Overall Network Delay for all the Packets from source to destination to source----------
+
+Average Network Delay while transmitting= 89.9676
+Average Network Delay while Receiving= -nan
+Total Average Network Delay= -nan
+
+
+---------Overall Switch Delay for all the packets----------
+
+Average Switch Delay while transmitting= 29
+Average Switch Delay while receiving= -nan
+Total Average Switch Delay while receiving and transmitting= -nan
+
+-----------------------------------------------------------
+

@@ -1,0 +1,14 @@
+
+Local Mem_Size= 0.000015 GB in node number 0
+Numbee of pages= 4
+ayush/memory_access_completion_log.trc
+ayush/Extra_stats.log
+ayush/pool_select_trace.trc
+ayush/mem_stats
+ayush/net_stats
+
+Cycles completed:0
+Cycles completed:100000
+Cycles completed:200000
+Cycles completed:300000
+====================Simulation_Complete====================

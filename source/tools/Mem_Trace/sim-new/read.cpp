@@ -21,7 +21,6 @@ sem_t sem1, sem2;
 
 string mem;
 void print_mem_stats(int);
-uint64_t common_clock = 0;
 
 uint64_t page_counter[num_nodes] = {0};
 vector<uint64_t> remote_pages[num_nodes];
@@ -170,10 +169,6 @@ void *local_handler(void *node)
 	while (1)
 	{
 		memory_access_count++;
-		if (node_id == 1)
-		{
-			common_clock++;
-		}
 		pthread_barrier_wait(&b);
 		if (trace_in.eof() || window_no > max_windows)
 		{
@@ -211,90 +206,97 @@ void *local_handler(void *node)
 			trace_in.read((char *)&temp, sizeof(temp));
 			is_read = false;
 		}
-	}
-	// long double current_window = temp.cycle / window_cycles;
-	uint64_t current_request_cycle = (double)(temp.cycle);
 
-	if (current_request_cycle == common_clock && !trace_in.eof())
-	{
-		long int local_paddr = local_page_table_walk(_pgd[((node_id - 1) * 3) + temp.procid - 1], temp.addr, L[node_id - 1], (node_id - 1));
-		bool isWrite = (temp.r == 'W' ? true : false);
-		is_read = true;
-		count_access[obj_id]++;
-		if (local_paddr != -1)
+		// long double current_window = temp.cycle / window_cycles;
+		uint64_t current_request_cycle = (double)(temp.cycle);
+		while (current_request_cycle == common_clock && !trace_in.eof())
 		{
-			local_access[node_id - 1]++;
-			local_paddr = local_paddr & 0xffffffffffc0;
-			// long int cycle_diff = current_request_cycle - last_cycle_no;
-			// adding memory transaction
-			// for (int i = 0; i < cycle_diff; i++)
-			local_mem[obj_id]->update();
-			obj.add_one_and_run(local_mem[obj_id], local_paddr, isWrite, trans_id, current_request_cycle, current_request_cycle, (node_id - 1));
+			long int local_paddr = local_page_table_walk(_pgd[((node_id - 1) * 3) + temp.procid - 1], temp.addr, L[node_id - 1], (node_id - 1));
+			bool isWrite = (temp.r == 'W' ? true : false);
+			is_read = true;
+			count_access[obj_id]++;
+			if (local_paddr != -1)
+			{
+				local_access[node_id - 1]++;
+				local_paddr = local_paddr & 0xffffffffffc0;
+				// long int cycle_diff = current_request_cycle - last_cycle_no;
+				// adding memory transaction
+				// for (int i = 0; i < cycle_diff; i++)
+				local_mem[obj_id]->update();
+				obj.add_one_and_run(local_mem[obj_id], local_paddr, isWrite, trans_id, current_request_cycle, current_request_cycle, (node_id - 1));
 
-			last_cycle_no = current_request_cycle;
-			trans_id++;
+				last_cycle_no = current_request_cycle;
+				trans_id++;
+			}
+			else if (local_paddr == -1)
+			{
+				static uint64_t remote_trans_id = 0;
+				// last_cycle_no=current_request_cycle;
+				remote_access[node_id - 1]++;
+				memory_stream remote_access;
+				remote_access.source = node_id - 1;
+				remote_access.procid = temp.procid;
+				remote_access.threadid = temp.threadid;
+				remote_access.addr = temp.addr;
+				remote_access.r = temp.r;
+				remote_access.trans_id = remote_trans_id;
+				remote_access.cycle = current_request_cycle; //+dis_latency;	//adding 300 extra cycle to each remote access as disaggregated latency
+				remote_access.miss_cycle_num = current_request_cycle;
+				pthread_mutex_lock(&lock);
+				rem_mem_stream.push_back(remote_access);
+				pthread_mutex_unlock(&lock);
+				pthread_barrier_wait(&b);
+				remote_trans_id++;
+			}
+
+			if (is_read == true)
+			{
+
+				trace_in.read((char *)&temp, sizeof(temp));
+				is_read = false;
+				current_request_cycle = (double)(temp.cycle);
+			}
+			//			cout<<"Node-ID"<<node_id<<"  "<<"pgd-index"<<node_id-1+temp.procid-1<<endl;
+			//			cout<<tra[i].procid<<"  "<<tra[i].threadid<<"  "<<hex<<"0x"<<tra[i].addr<<"  "<<dec<<tra[i].cycle<<endl;
 		}
-		else if (local_paddr == -1)
+		pthread_barrier_wait(&b);
+		if (node_id == 1)
 		{
-			static uint64_t remote_trans_id = 0;
-			// last_cycle_no=current_request_cycle;
-			remote_access[node_id - 1]++;
-			memory_stream remote_access;
-			remote_access.source = node_id - 1;
-			remote_access.procid = temp.procid;
-			remote_access.threadid = temp.threadid;
-			remote_access.addr = temp.addr;
-			remote_access.r = temp.r;
-			remote_access.trans_id = remote_trans_id;
-			remote_access.cycle = current_request_cycle; //+dis_latency;	//adding 300 extra cycle to each remote access as disaggregated latency
-			remote_access.miss_cycle_num = current_request_cycle;
-			pthread_mutex_lock(&lock);
-			rem_mem_stream.push_back(remote_access);
-			pthread_mutex_unlock(&lock);
-			pthread_barrier_wait(&b);
-			remote_trans_id++;
+			to_remote_memory();
+			if (common_clock % window_cycles == 0)
+			{
+				print_mem_stats(window_no);
+				window_no++;
+			}
+			common_clock++;
 		}
+		// else if (current_window > window_no)
+		// {
+		// all threads wait until all of them completes a window,
+		// one thread will send collcted remote requests to remote_memory handling code
+		// after returning, all threads will again start together for next window
+		// 	pthread_barrier_wait(&b);
 
-		//			cout<<"Node-ID"<<node_id<<"  "<<"pgd-index"<<node_id-1+temp.procid-1<<endl;
-		//			cout<<tra[i].procid<<"  "<<tra[i].threadid<<"  "<<hex<<"0x"<<tra[i].addr<<"  "<<dec<<tra[i].cycle<<endl;
+		// 	if (node_id == 1)
+		// 	{
+		// 		// to print stats after every time it reaches the result_window
+		// 		mem_stat_window++;
+		// 		if (mem_stat_window % res_window == 0)
+		// 		{
+		// 			print_mem_stats(window_no);
+		// 		}
+
+		// 		to_remote_memory(is_last);
+		// 	}
+
+		// 	trace_in.seekg(-32, ios::cur);
+		// 	pthread_barrier_wait(&b);
+
+		// 	// increase the window number, 1 million memory(default) accesses per node in each window
+		//
+		// }
 	}
-	pthread_barrier_wait(&b);
-	if (node_id == 1)
-	{
-		to_remote_memory();
-		if (common_clock % window_cycles == 0)
-		{
-			print_mem_stats(window_no);
-			window_no++;
-		}
-	}
-	// else if (current_window > window_no)
-	// {
-	// all threads wait until all of them completes a window,
-	// one thread will send collcted remote requests to remote_memory handling code
-	// after returning, all threads will again start together for next window
-	// 	pthread_barrier_wait(&b);
-
-	// 	if (node_id == 1)
-	// 	{
-	// 		// to print stats after every time it reaches the result_window
-	// 		mem_stat_window++;
-	// 		if (mem_stat_window % res_window == 0)
-	// 		{
-	// 			print_mem_stats(window_no);
-	// 		}
-
-	// 		to_remote_memory(is_last);
-	// 	}
-
-	// 	trace_in.seekg(-32, ios::cur);
-	// 	pthread_barrier_wait(&b);
-
-	// 	// increase the window number, 1 million memory(default) accesses per node in each window
-	//
-	// }
 }
-
 int main(int argc, char *argv[])
 {
 	string dir;

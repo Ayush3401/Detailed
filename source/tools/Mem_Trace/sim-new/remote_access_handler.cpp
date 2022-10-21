@@ -9,7 +9,7 @@ window is time between any two consecutive remote allocation requests
 #define max_samples 2800
 
 // sampling done for access counts in each epoch, 10 samples taken per epoch to store memory access count for each pool in each sample
-long double current_sample_access_count[num_mem_pools] = {0, 0, 0, 0};
+long double current_sample_access_count[num_mem_pools] =  {0};
 long double sample_access_count_buffer[num_mem_pools][max_samples];
 
 static int sample_num = 0;
@@ -126,7 +126,7 @@ struct remote_pool_instance
 pthread_mutex_t lock_queue;
 
 // to maintain last_cycle information for each remote pool (used for calculating memory update cycles)
-static unsigned long long last_cycle[num_mem_pools] = {0, 0, 0, 0};
+static unsigned long long last_cycle[num_mem_pools] = {0};
 
 bool rem_flag = false;
 // thread that will simulate memory access for each pool
@@ -359,7 +359,7 @@ void to_remote_memory()
 
 	calculate_stats_for_packets_received_at_node();
 
-	cout << "xyz";
+	// cout << "xyz";
 	//	cin.get();
 	// after this all packets are sent to remote memory pool and are sent to DRAM simulator in order of their arrival
 
