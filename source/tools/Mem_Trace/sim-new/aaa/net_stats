@@ -1,0 +1,225 @@
+
+
+=========================Epoch1=========================
+
+---------Node-Wise Average Packet Delay----------
+
+		Sending		Receiving		Total
+
+Node_no-1  : 95.7181		: 109.692			: 205.41
+Node_no-2  : 99.0521		: 110.299			: 209.351
+Node_no-3  : 98.3625		: 109.615			: 207.977
+Node_no-4  : 98.5329		: 109.702			: 208.235
+Node_no-5  : 101.268		: 110.306			: 211.574
+Node_no-6  : 93.6483		: 109.684			: 203.333
+Node_no-7  : 98.8254		: 109.754			: 208.58
+Node_no-8  : 97.387		: 109.596			: 206.983
+Node_no-9  : 98.691		: 109.902			: 208.593
+Node_no-10  : 93.7848		: 109.801			: 203.586
+Node_no-11  : 93.9718		: 109.683			: 203.655
+Node_no-12  : 94.5501		: 109.637			: 204.187
+Node_no-13  : 98.7523		: 109.951			: 208.704
+Node_no-14  : 99.2785		: 109.983			: 209.262
+Node_no-15  : 98.6355		: 110.202			: 208.837
+Node_no-16  : 94.0714		: 109.355			: 203.426
+
+
+---------Average Packet Delay at each Input-Port----------
+
+		Sending		Receiving
+
+Input-Port-1 : 20.349		 : 25.1607
+Input-Port-2 : 20.589		 : 25.209
+Input-Port-3 : 20.5761		 : 25.1255
+Input-Port-4 : 20.5362		 : 25.1886
+Input-Port-5 : 20.8097		 : 25.0948
+Input-Port-6 : 20.2263		 : 25.1434
+Input-Port-7 : 20.7238		 : 25.0975
+Input-Port-8 : 20.5411		 : 25.1376
+Input-Port-9 : 20.5645		 : 25.1987
+Input-Port-10 : 20.2649		 : 25.208
+Input-Port-11 : 20.3887		 : 25.1958
+Input-Port-12 : 20.3716		 : 25.1111
+Input-Port-13 : 20.5902		 : 25.1301
+Input-Port-14 : 20.7437		 : 25.089
+Input-Port-15 : 20.3935		 : 25.176
+Input-Port-16 : 20.5877		 : 25.1732
+
+
+---------Average Packet Delay at each Output-Port----------
+
+		Sending		Receiving
+
+Output-Port-1 : 6.17225		 : 10.0085
+Output-Port-2 : 6.16984		 : 10.0091
+Output-Port-3 : 7.94748		 : 10.0029
+Output-Port-4 : 8.13849		 : 10.0077
+Output-Port-5 : 8.07111		 : 10.0045
+Output-Port-6 : 8.30213		 : 10.0043
+
+
+---------Overall Network Delay for all the Packets from source to destination to source----------
+
+Average Network Delay while transmitting= 97.1434
+Average Network Delay while Receiving= 109.824
+Total Average Network Delay= 206.967
+
+
+---------Overall Switch Delay for all the packets----------
+
+Average Switch Delay while transmitting= 32.1192
+Average Switch Delay while receiving= 39.1584
+Total Average Switch Delay while receiving and transmitting= 71.2777
+
+-----------------------------------------------------------
+
+
+
+=========================Epoch2=========================
+
+---------Node-Wise Average Packet Delay----------
+
+		Sending		Receiving		Total
+
+Node_no-1  : 93.3233		: 109.664			: 202.988
+Node_no-2  : 95.8612		: 110.137			: 205.998
+Node_no-3  : 94.2003		: 109.639			: 203.839
+Node_no-4  : 95.2231		: 109.637			: 204.86
+Node_no-5  : 96.3878		: 110.143			: 206.531
+Node_no-6  : 91.7559		: 109.549			: 201.305
+Node_no-7  : 95.3552		: 109.682			: 205.037
+Node_no-8  : 95.6724		: 109.601			: 205.274
+Node_no-9  : 95.2708		: 109.804			: 205.074
+Node_no-10  : 91.7171		: 109.747			: 201.464
+Node_no-11  : 91.6102		: 109.639			: 201.249
+Node_no-12  : 92.3461		: 109.508			: 201.854
+Node_no-13  : 94.1543		: 109.905			: 204.06
+Node_no-14  : 95.4575		: 109.833			: 205.29
+Node_no-15  : 95.0332		: 110.116			: 205.15
+Node_no-16  : 91.5884		: 109.369			: 200.958
+
+
+---------Average Packet Delay at each Input-Port----------
+
+		Sending		Receiving
+
+Input-Port-1 : 20.2098		 : 25.1765
+Input-Port-2 : 20.4218		 : 25.2286
+Input-Port-3 : 20.3224		 : 25.1438
+Input-Port-4 : 20.355		 : 25.2339
+Input-Port-5 : 20.471		 : 25.0867
+Input-Port-6 : 20.164		 : 25.1238
+Input-Port-7 : 20.4933		 : 25.1115
+Input-Port-8 : 20.4735		 : 25.1388
+Input-Port-9 : 20.3606		 : 25.2015
+Input-Port-10 : 20.147		 : 25.2329
+Input-Port-11 : 20.1822		 : 25.1645
+Input-Port-12 : 20.2276		 : 25.0909
+Input-Port-13 : 20.2952		 : 25.1483
+Input-Port-14 : 20.4446		 : 25.0951
+Input-Port-15 : 20.3019		 : 25.1694
+Input-Port-16 : 20.3826		 : 25.1745
+
+
+---------Average Packet Delay at each Output-Port----------
+
+		Sending		Receiving
+
+Output-Port-1 : 5.5433		 : 10.0082
+Output-Port-2 : 5.71682		 : 10.007
+Output-Port-3 : 6.69969		 : 10.0022
+Output-Port-4 : 7.11861		 : 10.0059
+Output-Port-5 : 7.12064		 : 10.0057
+Output-Port-6 : 6.86492		 : 10.0033
+
+
+---------Overall Network Delay for all the Packets from source to destination to source----------
+
+Average Network Delay while transmitting= 94.0114
+Average Network Delay while Receiving= 109.747
+Total Average Network Delay= 203.758
+
+
+---------Overall Switch Delay for all the packets----------
+
+Average Switch Delay while transmitting= 30.9278
+Average Switch Delay while receiving= 39.1621
+Total Average Switch Delay while receiving and transmitting= 70.0899
+
+-----------------------------------------------------------
+
+
+
+=========================Final_epoch=========================
+
+---------Node-Wise Average Packet Delay----------
+
+		Sending		Receiving		Total
+
+Node_no-1  : 93.0478		: 109.652			: 202.7
+Node_no-2  : 95.402		: 110.115			: 205.517
+Node_no-3  : 93.8138		: 109.634			: 203.448
+Node_no-4  : 94.9168		: 109.629			: 204.546
+Node_no-5  : 96.0253		: 110.117			: 206.143
+Node_no-6  : 91.4982		: 109.536			: 201.034
+Node_no-7  : 94.9858		: 109.67			: 204.656
+Node_no-8  : 95.2283		: 109.597			: 204.826
+Node_no-9  : 94.1998		: 109.793			: 203.993
+Node_no-10  : 91.5212		: 109.736			: 201.257
+Node_no-11  : 91.4038		: 109.625			: 201.028
+Node_no-12  : 91.9378		: 109.499			: 201.437
+Node_no-13  : 93.7911		: 109.892			: 203.683
+Node_no-14  : 95.1121		: 109.821			: 204.933
+Node_no-15  : 94.4391		: 110.097			: 204.537
+Node_no-16  : 91.4013		: 109.374			: 200.775
+
+
+---------Average Packet Delay at each Input-Port----------
+
+		Sending		Receiving
+
+Input-Port-1 : 20.1965		 : 25.1757
+Input-Port-2 : 20.3933		 : 25.2291
+Input-Port-3 : 20.2956		 : 25.1503
+Input-Port-4 : 20.3374		 : 25.2351
+Input-Port-5 : 20.4471		 : 25.0847
+Input-Port-6 : 20.1469		 : 25.1207
+Input-Port-7 : 20.4636		 : 25.1122
+Input-Port-8 : 20.4433		 : 25.1389
+Input-Port-9 : 20.2986		 : 25.2044
+Input-Port-10 : 20.1374		 : 25.2341
+Input-Port-11 : 20.1682		 : 25.1609
+Input-Port-12 : 20.1957		 : 25.0914
+Input-Port-13 : 20.2744		 : 25.1538
+Input-Port-14 : 20.4212		 : 25.0994
+Input-Port-15 : 20.2709		 : 25.1721
+Input-Port-16 : 20.3529		 : 25.1836
+
+
+---------Average Packet Delay at each Output-Port----------
+
+		Sending		Receiving
+
+Output-Port-1 : 5.50573		 : 10.008
+Output-Port-2 : 5.63285		 : 10.0069
+Output-Port-3 : 6.5944		 : 10.0022
+Output-Port-4 : 6.87266		 : 10.0058
+Output-Port-5 : 6.99395		 : 10.0056
+Output-Port-6 : 6.74123		 : 10.0032
+
+
+---------Overall Network Delay for all the Packets from source to destination to source----------
+
+Average Network Delay while transmitting= 93.5967
+Average Network Delay while Receiving= 109.735
+Total Average Network Delay= 203.332
+
+
+---------Overall Switch Delay for all the packets----------
+
+Average Switch Delay while transmitting= 30.7652
+Average Switch Delay while receiving= 39.1636
+Total Average Switch Delay while receiving and transmitting= 69.9289
+
+-----------------------------------------------------------
+

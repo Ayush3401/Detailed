@@ -1,0 +1,117 @@
+    1  cd source/tools/ManualExamples
+    2  make all TARGET=intel64
+    3  sudo apt install make
+    4  make all TARGET=intel64
+    5  g++
+    6  sudo apt install g++
+    7  g++
+    8  sudo apt-get update
+    9  sudo apt install g++
+   10  g++
+   11  sudo apt-get install g++
+   12  make all TARGET=intel64
+   13  ../../../pin -t obj-intel64/inscount0.so -- /bin/ls
+   14  ls
+   15  cd ~
+   16  cd /
+   17  ls
+   18  mv mnt/c/Users/ayush/Downloads/pin-3.20.zip ~
+   19  cd ~
+   20  ls
+   21  mkdir pin
+   22  unzip pin-3.20.zip pin
+   23  sudo apt-get install unzip
+   24  unzip pin-3.20.zip -d pin
+   25  ls
+   26  cd pin/
+   27  ls
+   28  cd pin-3.20/
+   29  code .
+   30  cls
+   31  cd source/tools/ManualExamples/
+   32  ../../../pin -t obj-intel64/inscount0.so -o inscount0.log -- /bin/ls
+   33  clr
+   34  clear
+   35  ls
+   36  cd pin/
+   37  ls
+   38  cd pin-3.20/
+   39  code .
+   40  cd source/tools/Mem_Trace/
+   41  cd pin/pin-3.20/
+   42  code .
+   43  cd source/tools/Mem_Trace/
+   44  source Run.sh 
+   45  ../../../pin -t obj-intel64/I_M.so -N 4 -- ~/Splash-3/codes/apps/fmm/FMM < inputs/input.template
+   46  ls
+   47  mkdir splash
+   48  cd splash/
+   49  git
+   50  git clone https://github.com/SakalisC/Splash-3.git
+   51  cd Splash-3/
+   52  ls
+   53  cd codes/
+   54  ls
+   55  nano Makefile.config 
+   56  cd ..
+   57  rm -r splash/
+   58  rm -r splash/ -y
+   59  rm -r splash/ 
+   60  ls
+   61  git clone https://github.com/SakalisC/Splash-3.git
+   62  cd pin/pin-3.20/
+   63  code .
+   64  g++ mt.cpp
+   65  g++ mt.cpp -lpthread 
+   66  cd source/tools/Mem_Trace/
+   67  ../../../pin -t obj-intel64/I_M.so -- ../../../a.out
+   68  ./parse
+   69  ls
+   70  cat Trace_Node1.trc 
+   71  make read
+   72  make
+   73  cd sim-new/
+   74  make
+   75  cd source/tools/Mem_Trace
+   76  .\read_i .\
+   77  ./read_i ./
+   78  cd sim-new/
+   79  ./read_i ./
+   80  ./read_i ./lawd
+   81  make
+   82  ./read_i ./lawd
+   83  make
+   84  ./read_i ./lawd
+   85  ls
+   86  cd pin/
+   87  cd pin-3.20/
+   88  code .
+   89  ls
+   90  cd pin/
+   91  ls
+   92  cd pin-3.20/
+   93  code .
+   94  cd pin/pin-3.20/
+   95  code .
+   96  cd pin/pin-3.20/
+   97  code .
+   98  ls
+   99  cd pin/pin-3.20/
+  100  code .
+  101  clr
+  102  clear
+  103  gedit
+  104  sudo apt install gedit
+  105  clear
+  106  cd pin/pin-3.20/
+  107  wsl --update
+  108  code .
+  109  cd pin/pin-3.20/
+  110  code .
+  111  cd source/tools/Mem_Trace
+  112  history
+  113  cd ../../..
+  114  history > history.txt
+  115  history | history.txt
+  116  cat history >  history.txt
+  117  history >  history.txt

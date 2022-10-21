@@ -1,0 +1,12 @@
+
+-----checkpoint-----
+Total memory accesses until now:	175437
+Total instructions until now:	128036
+Total cache misses until now:	2064
+
+
+Total memory accesses(to cache) by CPU, traced in Node-1 App-1 : 175437
+Total instructions traced in Node-1 App-1 : 18446744073709324019
+
+Total memory accesses(to cache) by CPU, traced in Node-1 : 175437
+

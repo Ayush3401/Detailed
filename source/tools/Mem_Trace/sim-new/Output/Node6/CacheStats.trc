@@ -1,0 +1,125 @@
+
+2097	Core_0					Core_1					Core_2					Core_3					
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+				ITLB0					ITLB1					ITLB2					ITLB3
+
+Load Hits:----------6557	|	Load Hits:---------20734	|	Load Hits:---------15714	|	Load Hits:---------66932
+Load Misses:----------41	|	Load Misses:----------66	|	Load Misses:----------58	|	Load Misses:----------78
+Load Accesses:------6598	|	Load Accesses:-----20800	|	Load Accesses:-----15772	|	Load Accesses:-----67010
+Load Miss Rate:---0.6214%	|	Load Miss Rate:-0.317308%	|	Load Miss Rate:--0.36774%	|	Load Miss Rate:-0.116401%
+
+Store Hits:------------0	|	Store Hits:------------0	|	Store Hits:------------0	|	Store Hits:------------0
+Store Misses:----------0	|	Store Misses:----------0	|	Store Misses:----------0	|	Store Misses:----------0
+Store Accesses:--------0	|	Store Accesses:--------0	|	Store Accesses:--------0	|	Store Accesses:--------0
+Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%
+
+Total Hits:---------6557	|	Total Hits:--------20734	|	Total Hits:--------15714	|	Total Hits:--------66932
+Total Misses:---------41	|	Total Misses:---------66	|	Total Misses:---------58	|	Total Misses:---------78
+Total Accesses:-----6598	|	Total Accesses:----20800	|	Total Accesses:----15772	|	Total Accesses:----67010
+Total Miss Rate:--0.6214%	|	Total Miss Rate:0.317308%	|	Total Miss Rate:-0.36774%	|	Total Miss Rate:0.116401%
+
+Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0
+Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+				DTLB0					DTLB1					DTLB2					DTLB3
+
+Load Hits:----------2557	|	Load Hits:----------7321	|	Load Hits:----------5662	|	Load Hits:---------24931
+Load Misses:----------34	|	Load Misses:----------64	|	Load Misses:----------54	|	Load Misses:----------94
+Load Accesses:------2591	|	Load Accesses:------7385	|	Load Accesses:------5716	|	Load Accesses:-----25025
+Load Miss Rate:--1.31223%	|	Load Miss Rate:-0.866622%	|	Load Miss Rate:-0.944717%	|	Load Miss Rate:-0.375624%
+
+Store Hits:------------0	|	Store Hits:------------0	|	Store Hits:------------0	|	Store Hits:------------0
+Store Misses:----------0	|	Store Misses:----------0	|	Store Misses:----------0	|	Store Misses:----------0
+Store Accesses:--------0	|	Store Accesses:--------0	|	Store Accesses:--------0	|	Store Accesses:--------0
+Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%
+
+Total Hits:---------2557	|	Total Hits:---------7321	|	Total Hits:---------5662	|	Total Hits:--------24931
+Total Misses:---------34	|	Total Misses:---------64	|	Total Misses:---------54	|	Total Misses:---------94
+Total Accesses:-----2591	|	Total Accesses:-----7385	|	Total Accesses:-----5716	|	Total Accesses:----25025
+Total Miss Rate:-1.31223%	|	Total Miss Rate:0.866622%	|	Total Miss Rate:0.944717%	|	Total Miss Rate:0.375624%
+
+Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0
+Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+				L1_I0					L1_I1					L1_I2					L1_I3
+
+Load Hits:----------6318	|	Load Hits:---------20297	|	Load Hits:---------15386	|	Load Hits:---------66147
+Load Misses:---------280	|	Load Misses:---------503	|	Load Misses:---------386	|	Load Misses:---------863
+Load Accesses:------6598	|	Load Accesses:-----20800	|	Load Accesses:-----15772	|	Load Accesses:-----67010
+Load Miss Rate:--4.24371%	|	Load Miss Rate:--2.41827%	|	Load Miss Rate:--2.44738%	|	Load Miss Rate:--1.28787%
+
+Store Hits:------------0	|	Store Hits:------------0	|	Store Hits:------------0	|	Store Hits:------------0
+Store Misses:----------0	|	Store Misses:----------0	|	Store Misses:----------0	|	Store Misses:----------0
+Store Accesses:--------0	|	Store Accesses:--------0	|	Store Accesses:--------0	|	Store Accesses:--------0
+Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%	|	Store Miss Rate:-----nan%
+
+Total Hits:---------6318	|	Total Hits:--------20297	|	Total Hits:--------15386	|	Total Hits:--------66147
+Total Misses:--------280	|	Total Misses:--------503	|	Total Misses:--------386	|	Total Misses:--------863
+Total Accesses:-----6598	|	Total Accesses:----20800	|	Total Accesses:----15772	|	Total Accesses:----67010
+Total Miss Rate:-4.24371%	|	Total Miss Rate:-2.41827%	|	Total Miss Rate:-2.44738%	|	Total Miss Rate:-1.28787%
+
+Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0
+Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+				L1_D0					L1_D1					L1_D2					L1_D3
+
+Load Hits:----------1480	|	Load Hits:----------4396	|	Load Hits:----------3450	|	Load Hits:---------16397
+Load Misses:---------155	|	Load Misses:---------350	|	Load Misses:---------284	|	Load Misses:---------757
+Load Accesses:------1635	|	Load Accesses:------4746	|	Load Accesses:------3734	|	Load Accesses:-----17154
+Load Miss Rate:--9.48012%	|	Load Miss Rate:--7.37463%	|	Load Miss Rate:--7.60578%	|	Load Miss Rate:--4.41296%
+
+Store Hits:----------709	|	Store Hits:---------2159	|	Store Hits:---------1720	|	Store Hits:---------7029
+Store Misses:--------247	|	Store Misses:--------480	|	Store Misses:--------262	|	Store Misses:--------842
+Store Accesses:------956	|	Store Accesses:-----2639	|	Store Accesses:-----1982	|	Store Accesses:-----7871
+Store Miss Rate:-25.8368%	|	Store Miss Rate:-18.1887%	|	Store Miss Rate:--13.219%	|	Store Miss Rate:-10.6975%
+
+Total Hits:---------2189	|	Total Hits:---------6555	|	Total Hits:---------5170	|	Total Hits:--------23426
+Total Misses:--------402	|	Total Misses:--------830	|	Total Misses:--------546	|	Total Misses:-------1599
+Total Accesses:-----2591	|	Total Accesses:-----7385	|	Total Accesses:-----5716	|	Total Accesses:----25025
+Total Miss Rate:-15.5152%	|	Total Miss Rate:--11.239%	|	Total Miss Rate:-9.55213%	|	Total Miss Rate:-6.38961%
+
+Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0
+Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+				L2_0					L2_1					L2_2					L2_3
+
+Load Hits:-------------0	|	Load Hits:-------------5	|	Load Hits:-------------2	|	Load Hits:------------98
+Load Misses:---------435	|	Load Misses:---------848	|	Load Misses:---------668	|	Load Misses:--------1522
+Load Accesses:-------435	|	Load Accesses:-------853	|	Load Accesses:-------670	|	Load Accesses:------1620
+Load Miss Rate:------100%	|	Load Miss Rate:--99.4138%	|	Load Miss Rate:--99.7015%	|	Load Miss Rate:--93.9506%
+
+Store Hits:------------0	|	Store Hits:------------0	|	Store Hits:------------0	|	Store Hits:-----------32
+Store Misses:--------247	|	Store Misses:--------480	|	Store Misses:--------262	|	Store Misses:--------810
+Store Accesses:------247	|	Store Accesses:------480	|	Store Accesses:------262	|	Store Accesses:------842
+Store Miss Rate:-----100%	|	Store Miss Rate:-----100%	|	Store Miss Rate:-----100%	|	Store Miss Rate:-96.1995%
+
+Total Hits:------------0	|	Total Hits:------------5	|	Total Hits:------------2	|	Total Hits:----------130
+Total Misses:--------682	|	Total Misses:-------1328	|	Total Misses:--------930	|	Total Misses:-------2332
+Total Accesses:------682	|	Total Accesses:-----1333	|	Total Accesses:------932	|	Total Accesses:-----2462
+Total Miss Rate:-----100%	|	Total Miss Rate:-99.6249%	|	Total Miss Rate:-99.7854%	|	Total Miss Rate:-94.7197%
+
+Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0	|	Total Flushes:---------0
+Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0	|	Stat Resets:-----------0
+L3 Unified_Cache:
+   Load Hits:            2461
+   Load Misses:          1721
+   Load Accesses:        4182
+   Load Miss Rate:     41.15%
+
+  Store Hits:            1735
+  Store Misses:           376
+  Store Accesses:        2111
+  Store Miss Rate:     17.81%
+
+  Total Hits:            4196
+  Total Misses:          2097
+  Total Accesses:        6293
+  Total Miss Rate:     33.32%
+  Flushes:                  0
+  Stat Resets:              0
+

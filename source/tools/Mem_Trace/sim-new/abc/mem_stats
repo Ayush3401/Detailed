@@ -1,0 +1,208 @@
+
+
+=========================Epoch1=========================
+
+Total Memory Accesses till this epoch of simulation= 1
+
+
+			Node wise total memory accesses
+--------------------------------------------------------------
+Memory accesses in NODE-1 :1
+
+
+	Memory-Unit wise clock cycles completion until last request
+--------------------------------------------------------------
+Total cycles until last request completion in Local Node Mem-1 : 0
+
+--------------------------------------------------------------
+Cycle number until last request completion in Remote Mem Pool-1 : 0
+
+=========================================
+				Node-1
+=========================================
+
+Local_Accesses-1	:0
+Remote_Accesses-1	:1
+
+Total memory access in remote pool-1 :1
+
+
+--------------------------------------------------------------------
+Memory Size               			:0.00392151GB
+	Local Memory Size			:1.52588e-05GB
+	Remote Memory Size			:0.00390625GB
+Local Memory Used        			:0GB
+Remote Memory Used        			:3.8147e-06GB
+Total Pages in memory     			:1028
+	Total local pages 			 :4
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:1
+	Total local allocated pages 		:0
+	Total remote allocated pages 		:1
+Free Pages left 				:1027
+	Total local free pages 			:4
+	Total remote free pages 		:1023
+------------------------------------------------------------------
+
+Pool wise page count
+Pages in remote-pool-0 :1
+
+--------------------------------------------------------------
+========================================================================================
+				Average no. of cycles for memory access
+========================================================================================
+Total completed local memory access on node-1 : 0
+	Average no. of cycles for local-memory access on node-1 : -nan
+
+========Disaggregated latency calculated by network simulation========
+Total completed remote-memory access of node-1 : 0
+	Average no. of cycles for remote-memory access on node-1 : -nan
+
+Total completed memory accesses (Local + Remote) of node-1 : 0
+	Average no. of cycles for local+remote memory access on node-1 : -nan
+
+Total memory accesses completed at remote pool-1 : 0
+	Average no. of cycles for memory access on remote pool-1 : -nan
+
+
+
+=========================Epoch2=========================
+
+Total Memory Accesses till this epoch of simulation= 1
+
+
+			Node wise total memory accesses
+--------------------------------------------------------------
+Memory accesses in NODE-1 :1
+
+
+	Memory-Unit wise clock cycles completion until last request
+--------------------------------------------------------------
+Total cycles until last request completion in Local Node Mem-1 : 0
+
+--------------------------------------------------------------
+Cycle number until last request completion in Remote Mem Pool-1 : 0
+
+=========================================
+				Node-1
+=========================================
+
+Local_Accesses-1	:0
+Remote_Accesses-1	:1
+
+Total memory access in remote pool-1 :1
+
+
+--------------------------------------------------------------------
+Memory Size               			:0.00392151GB
+	Local Memory Size			:1.52588e-05GB
+	Remote Memory Size			:0.00390625GB
+Local Memory Used        			:0GB
+Remote Memory Used        			:3.8147e-06GB
+Total Pages in memory     			:1028
+	Total local pages 			 :4
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:1
+	Total local allocated pages 		:0
+	Total remote allocated pages 		:1
+Free Pages left 				:1027
+	Total local free pages 			:4
+	Total remote free pages 		:1023
+------------------------------------------------------------------
+
+Pool wise page count
+Pages in remote-pool-0 :1
+
+--------------------------------------------------------------
+========================================================================================
+				Average no. of cycles for memory access
+========================================================================================
+Total completed local memory access on node-1 : 0
+	Average no. of cycles for local-memory access on node-1 : -nan
+
+========Disaggregated latency calculated by network simulation========
+Total completed remote-memory access of node-1 : 0
+	Average no. of cycles for remote-memory access on node-1 : -nan
+
+Total completed memory accesses (Local + Remote) of node-1 : 0
+	Average no. of cycles for local+remote memory access on node-1 : -nan
+
+Total memory accesses completed at remote pool-1 : 0
+	Average no. of cycles for memory access on remote pool-1 : -nan
+
+
+
+=========================Final_epoch=========================
+
+Total Memory Accesses till this epoch of simulation= 1
+
+
+			Node wise total memory accesses
+--------------------------------------------------------------
+Memory accesses in NODE-1 :1
+
+
+	Memory-Unit wise clock cycles completion until last request
+--------------------------------------------------------------
+Total cycles until last request completion in Local Node Mem-1 : 0
+
+--------------------------------------------------------------
+Cycle number until last request completion in Remote Mem Pool-1 : 130
+
+=========================================
+				Node-1
+=========================================
+
+Local_Accesses-1	:0
+Remote_Accesses-1	:1
+
+Total memory access in remote pool-1 :1
+
+
+--------------------------------------------------------------------
+Memory Size               			:0.00392151GB
+	Local Memory Size			:1.52588e-05GB
+	Remote Memory Size			:0.00390625GB
+Local Memory Used        			:0GB
+Remote Memory Used        			:3.8147e-06GB
+Total Pages in memory     			:1028
+	Total local pages 			 :4
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:1
+	Total local allocated pages 		:0
+	Total remote allocated pages 		:1
+Free Pages left 				:1027
+	Total local free pages 			:4
+	Total remote free pages 		:1023
+------------------------------------------------------------------
+
+Pool wise page count
+Pages in remote-pool-0 :1
+
+--------------------------------------------------------------
+========================================================================================
+				Average no. of cycles for memory access
+========================================================================================
+Total completed local memory access on node-1 : 0
+	Average no. of cycles for local-memory access on node-1 : -nan
+
+========Disaggregated latency calculated by network simulation========
+Total completed remote-memory access of node-1 : 0
+	Average no. of cycles for remote-memory access on node-1 : -nan
+
+Total completed memory accesses (Local + Remote) of node-1 : 0
+	Average no. of cycles for local+remote memory access on node-1 : -nan
+
+Total memory accesses completed at remote pool-1 : 1
+	Average no. of cycles for memory access on remote pool-1 : 41
+
+
+Local-Remote Mapping Enteries
+
+
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x4          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------

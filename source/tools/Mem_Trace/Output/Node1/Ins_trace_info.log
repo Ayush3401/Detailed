@@ -1,0 +1,96 @@
+
+-----checkpoint-----
+Total memory accesses until now:	2000000
+Total instructions until now:	1147550
+Total cache misses until now:	9852
+
+
+-----checkpoint-----
+Total memory accesses until now:	4000000
+Total instructions until now:	2290406
+Total cache misses until now:	18781
+
+
+-----checkpoint-----
+Total memory accesses until now:	6000000
+Total instructions until now:	3433262
+Total cache misses until now:	27709
+
+
+-----checkpoint-----
+Total memory accesses until now:	8000000
+Total instructions until now:	4576118
+Total cache misses until now:	36638
+
+
+-----checkpoint-----
+Total memory accesses until now:	10000000
+Total instructions until now:	5718976
+Total cache misses until now:	45567
+
+
+-----checkpoint-----
+Total memory accesses until now:	12000000
+Total instructions until now:	6861838
+Total cache misses until now:	54495
+
+
+-----checkpoint-----
+Total memory accesses until now:	14000000
+Total instructions until now:	8004688
+Total cache misses until now:	63423
+
+
+-----checkpoint-----
+Total memory accesses until now:	16000000
+Total instructions until now:	9147544
+Total cache misses until now:	72353
+
+
+-----checkpoint-----
+Total memory accesses until now:	18000000
+Total instructions until now:	10290406
+Total cache misses until now:	81281
+
+
+-----checkpoint-----
+Total memory accesses until now:	20000000
+Total instructions until now:	11433262
+Total cache misses until now:	90209
+
+
+-----checkpoint-----
+Total memory accesses until now:	22000000
+Total instructions until now:	12576118
+Total cache misses until now:	99138
+
+
+-----checkpoint-----
+Total memory accesses until now:	24000000
+Total instructions until now:	13718976
+Total cache misses until now:	108066
+
+
+-----checkpoint-----
+Total memory accesses until now:	26000000
+Total instructions until now:	14862298
+Total cache misses until now:	116998
+
+
+-----checkpoint-----
+Total memory accesses until now:	28000000
+Total instructions until now:	16005156
+Total cache misses until now:	125926
+
+
+-----checkpoint-----
+Total memory accesses until now:	28050167
+Total instructions until now:	16036193
+Total cache misses until now:	126418
+
+
+Total memory accesses(to cache) by CPU, traced in Node-1 App-1 : 28050167
+Total instructions traced in Node-1 App-1 : 18446744073707141575
+
+Total memory accesses(to cache) by CPU, traced in Node-1 : 28050167
+

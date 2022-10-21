@@ -1,0 +1,2448 @@
+
+
+=========================Epoch1=========================
+
+Total Memory Accesses till this epoch of simulation= 23392401
+
+
+			Node wise total memory accesses
+--------------------------------------------------------------
+Memory accesses in NODE-1 :1245970
+Memory accesses in NODE-2 :760032
+Memory accesses in NODE-3 :342720
+Memory accesses in NODE-4 :3669347
+Memory accesses in NODE-5 :6815898
+Memory accesses in NODE-6 :2301250
+Memory accesses in NODE-7 :1870478
+Memory accesses in NODE-8 :756903
+Memory accesses in NODE-9 :892819
+Memory accesses in NODE-10 :978805
+Memory accesses in NODE-11 :1708183
+Memory accesses in NODE-12 :861494
+Memory accesses in NODE-13 :1188502
+
+
+	Memory-Unit wise clock cycles completion until last request
+--------------------------------------------------------------
+Total cycles until last request completion in Local Node Mem-1 : 0
+Total cycles until last request completion in Local Node Mem-2 : 0
+Total cycles until last request completion in Local Node Mem-3 : 0
+Total cycles until last request completion in Local Node Mem-4 : 0
+Total cycles until last request completion in Local Node Mem-5 : 0
+Total cycles until last request completion in Local Node Mem-6 : 0
+Total cycles until last request completion in Local Node Mem-7 : 0
+Total cycles until last request completion in Local Node Mem-8 : 0
+Total cycles until last request completion in Local Node Mem-9 : 0
+Total cycles until last request completion in Local Node Mem-10 : 0
+Total cycles until last request completion in Local Node Mem-11 : 0
+Total cycles until last request completion in Local Node Mem-12 : 0
+Total cycles until last request completion in Local Node Mem-13 : 0
+
+--------------------------------------------------------------
+Cycle number until last request completion in Remote Mem Pool-1 : 0
+Cycle number until last request completion in Remote Mem Pool-2 : 0
+Cycle number until last request completion in Remote Mem Pool-3 : 0
+Cycle number until last request completion in Remote Mem Pool-4 : 0
+
+=========================================
+				Node-1
+=========================================
+
+Local_Accesses-1	:1245970
+Remote_Accesses-1	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.0742722GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:19470
+Free Pages left 					:1029106
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-2
+=========================================
+
+Local_Accesses-2	:760032
+Remote_Accesses-2	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.0460854GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:12081
+Free Pages left 					:1036495
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-3
+=========================================
+
+Local_Accesses-3	:342720
+Remote_Accesses-3	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.0414391GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:10863
+Free Pages left 					:1037713
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-4
+=========================================
+
+Local_Accesses-4	:3669347
+Remote_Accesses-4	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.18224GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:47773
+Free Pages left 					:1000803
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-5
+=========================================
+
+Local_Accesses-5	:6815898
+Remote_Accesses-5	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.40667GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:106606
+Free Pages left 					:941970
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-6
+=========================================
+
+Local_Accesses-6	:2301250
+Remote_Accesses-6	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.215343GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:56451
+Free Pages left 					:992125
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-7
+=========================================
+
+Local_Accesses-7	:1870478
+Remote_Accesses-7	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.481476GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:126216
+Free Pages left 					:922360
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-8
+=========================================
+
+Local_Accesses-8	:756903
+Remote_Accesses-8	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.0456123GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:11957
+Free Pages left 					:1036619
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-9
+=========================================
+
+Local_Accesses-9	:892819
+Remote_Accesses-9	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.471214GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:123526
+Free Pages left 					:925050
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-10
+=========================================
+
+Local_Accesses-10	:978805
+Remote_Accesses-10	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.058197GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:15256
+Free Pages left 					:1033320
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-11
+=========================================
+
+Local_Accesses-11	:1708183
+Remote_Accesses-11	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.102276GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:26811
+Free Pages left 					:1021765
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-12
+=========================================
+
+Local_Accesses-12	:861494
+Remote_Accesses-12	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.0762558GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:19990
+Free Pages left 					:1028586
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-13
+=========================================
+
+Local_Accesses-13	:1188502
+Remote_Accesses-13	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.248196GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:65063
+Free Pages left 					:983513
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+========================================================================================
+				Average no. of cycles for memory access
+========================================================================================
+Total completed local memory access on node-1 : 0
+	Average no. of cycles for local-memory access on node-1 : -nan
+Total completed local memory access on node-2 : 0
+	Average no. of cycles for local-memory access on node-2 : -nan
+Total completed local memory access on node-3 : 0
+	Average no. of cycles for local-memory access on node-3 : -nan
+Total completed local memory access on node-4 : 0
+	Average no. of cycles for local-memory access on node-4 : -nan
+Total completed local memory access on node-5 : 0
+	Average no. of cycles for local-memory access on node-5 : -nan
+Total completed local memory access on node-6 : 0
+	Average no. of cycles for local-memory access on node-6 : -nan
+Total completed local memory access on node-7 : 0
+	Average no. of cycles for local-memory access on node-7 : -nan
+Total completed local memory access on node-8 : 0
+	Average no. of cycles for local-memory access on node-8 : -nan
+Total completed local memory access on node-9 : 0
+	Average no. of cycles for local-memory access on node-9 : -nan
+Total completed local memory access on node-10 : 0
+	Average no. of cycles for local-memory access on node-10 : -nan
+Total completed local memory access on node-11 : 0
+	Average no. of cycles for local-memory access on node-11 : -nan
+Total completed local memory access on node-12 : 0
+	Average no. of cycles for local-memory access on node-12 : -nan
+Total completed local memory access on node-13 : 0
+	Average no. of cycles for local-memory access on node-13 : -nan
+
+========Disaggregated latency considered as: 300========
+Total completed remote-memory access of node-1 : 0
+	Average no. of cycles for remote-memory access on node-1 : -nan
+Total completed remote-memory access of node-2 : 0
+	Average no. of cycles for remote-memory access on node-2 : -nan
+Total completed remote-memory access of node-3 : 0
+	Average no. of cycles for remote-memory access on node-3 : -nan
+Total completed remote-memory access of node-4 : 0
+	Average no. of cycles for remote-memory access on node-4 : -nan
+Total completed remote-memory access of node-5 : 0
+	Average no. of cycles for remote-memory access on node-5 : -nan
+Total completed remote-memory access of node-6 : 0
+	Average no. of cycles for remote-memory access on node-6 : -nan
+Total completed remote-memory access of node-7 : 0
+	Average no. of cycles for remote-memory access on node-7 : -nan
+Total completed remote-memory access of node-8 : 0
+	Average no. of cycles for remote-memory access on node-8 : -nan
+Total completed remote-memory access of node-9 : 0
+	Average no. of cycles for remote-memory access on node-9 : -nan
+Total completed remote-memory access of node-10 : 0
+	Average no. of cycles for remote-memory access on node-10 : -nan
+Total completed remote-memory access of node-11 : 0
+	Average no. of cycles for remote-memory access on node-11 : -nan
+Total completed remote-memory access of node-12 : 0
+	Average no. of cycles for remote-memory access on node-12 : -nan
+Total completed remote-memory access of node-13 : 0
+	Average no. of cycles for remote-memory access on node-13 : -nan
+
+Total completed memory accesses (Local + Remote) of node-1 : 0
+	Average no. of cycles for local+remote memory access on node-1 : -nan
+Total completed memory accesses (Local + Remote) of node-2 : 0
+	Average no. of cycles for local+remote memory access on node-2 : -nan
+Total completed memory accesses (Local + Remote) of node-3 : 0
+	Average no. of cycles for local+remote memory access on node-3 : -nan
+Total completed memory accesses (Local + Remote) of node-4 : 0
+	Average no. of cycles for local+remote memory access on node-4 : -nan
+Total completed memory accesses (Local + Remote) of node-5 : 0
+	Average no. of cycles for local+remote memory access on node-5 : -nan
+Total completed memory accesses (Local + Remote) of node-6 : 0
+	Average no. of cycles for local+remote memory access on node-6 : -nan
+Total completed memory accesses (Local + Remote) of node-7 : 0
+	Average no. of cycles for local+remote memory access on node-7 : -nan
+Total completed memory accesses (Local + Remote) of node-8 : 0
+	Average no. of cycles for local+remote memory access on node-8 : -nan
+Total completed memory accesses (Local + Remote) of node-9 : 0
+	Average no. of cycles for local+remote memory access on node-9 : -nan
+Total completed memory accesses (Local + Remote) of node-10 : 0
+	Average no. of cycles for local+remote memory access on node-10 : -nan
+Total completed memory accesses (Local + Remote) of node-11 : 0
+	Average no. of cycles for local+remote memory access on node-11 : -nan
+Total completed memory accesses (Local + Remote) of node-12 : 0
+	Average no. of cycles for local+remote memory access on node-12 : -nan
+Total completed memory accesses (Local + Remote) of node-13 : 0
+	Average no. of cycles for local+remote memory access on node-13 : -nan
+
+Total memory accesses completed at remote pool-1 : 0
+	Average no. of cycles for memory access on remote pool-1 : -nan
+Total memory accesses completed at remote pool-2 : 0
+	Average no. of cycles for memory access on remote pool-2 : -nan
+Total memory accesses completed at remote pool-3 : 0
+	Average no. of cycles for memory access on remote pool-3 : -nan
+Total memory accesses completed at remote pool-4 : 0
+	Average no. of cycles for memory access on remote pool-4 : -nan
+
+
+
+=========================Epoch2=========================
+
+Total Memory Accesses till this epoch of simulation= 45369870
+
+
+			Node wise total memory accesses
+--------------------------------------------------------------
+Memory accesses in NODE-1 :2461546
+Memory accesses in NODE-2 :1502815
+Memory accesses in NODE-3 :931899
+Memory accesses in NODE-4 :6062508
+Memory accesses in NODE-5 :13488669
+Memory accesses in NODE-6 :4625027
+Memory accesses in NODE-7 :3697741
+Memory accesses in NODE-8 :1498116
+Memory accesses in NODE-9 :1750546
+Memory accesses in NODE-10 :1939650
+Memory accesses in NODE-11 :3374751
+Memory accesses in NODE-12 :1696072
+Memory accesses in NODE-13 :2340530
+
+
+	Memory-Unit wise clock cycles completion until last request
+--------------------------------------------------------------
+Total cycles until last request completion in Local Node Mem-1 : 0
+Total cycles until last request completion in Local Node Mem-2 : 0
+Total cycles until last request completion in Local Node Mem-3 : 0
+Total cycles until last request completion in Local Node Mem-4 : 0
+Total cycles until last request completion in Local Node Mem-5 : 0
+Total cycles until last request completion in Local Node Mem-6 : 0
+Total cycles until last request completion in Local Node Mem-7 : 0
+Total cycles until last request completion in Local Node Mem-8 : 0
+Total cycles until last request completion in Local Node Mem-9 : 0
+Total cycles until last request completion in Local Node Mem-10 : 0
+Total cycles until last request completion in Local Node Mem-11 : 0
+Total cycles until last request completion in Local Node Mem-12 : 0
+Total cycles until last request completion in Local Node Mem-13 : 0
+
+--------------------------------------------------------------
+Cycle number until last request completion in Remote Mem Pool-1 : 0
+Cycle number until last request completion in Remote Mem Pool-2 : 0
+Cycle number until last request completion in Remote Mem Pool-3 : 0
+Cycle number until last request completion in Remote Mem Pool-4 : 0
+
+=========================================
+				Node-1
+=========================================
+
+Local_Accesses-1	:2461546
+Remote_Accesses-1	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.146729GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:38464
+Free Pages left 					:1010112
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-2
+=========================================
+
+Local_Accesses-2	:1502815
+Remote_Accesses-2	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.0903625GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:23688
+Free Pages left 					:1024888
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-3
+=========================================
+
+Local_Accesses-3	:931899
+Remote_Accesses-3	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.110367GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:28932
+Free Pages left 					:1019644
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-4
+=========================================
+
+Local_Accesses-4	:6062508
+Remote_Accesses-4	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.318607GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:83521
+Free Pages left 					:965055
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-5
+=========================================
+
+Local_Accesses-5	:13488669
+Remote_Accesses-5	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.804398GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:210868
+Free Pages left 					:837708
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-6
+=========================================
+
+Local_Accesses-6	:4625027
+Remote_Accesses-6	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.370895GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:97228
+Free Pages left 					:951348
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-7
+=========================================
+
+Local_Accesses-7	:3697741
+Remote_Accesses-7	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.952831GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:249779
+Free Pages left 					:798797
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-8
+=========================================
+
+Local_Accesses-8	:1498116
+Remote_Accesses-8	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.0897751GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:23534
+Free Pages left 					:1025042
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-9
+=========================================
+
+Local_Accesses-9	:1750546
+Remote_Accesses-9	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.603336GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:158161
+Free Pages left 					:890415
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-10
+=========================================
+
+Local_Accesses-10	:1939650
+Remote_Accesses-10	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.115173GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:30192
+Free Pages left 					:1018384
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-11
+=========================================
+
+Local_Accesses-11	:3374751
+Remote_Accesses-11	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.201653GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:52862
+Free Pages left 					:995714
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-12
+=========================================
+
+Local_Accesses-12	:1696072
+Remote_Accesses-12	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.11969GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:31376
+Free Pages left 					:1017200
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-13
+=========================================
+
+Local_Accesses-13	:2340530
+Remote_Accesses-13	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.287449GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:75353
+Free Pages left 					:973223
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+========================================================================================
+				Average no. of cycles for memory access
+========================================================================================
+Total completed local memory access on node-1 : 0
+	Average no. of cycles for local-memory access on node-1 : -nan
+Total completed local memory access on node-2 : 0
+	Average no. of cycles for local-memory access on node-2 : -nan
+Total completed local memory access on node-3 : 0
+	Average no. of cycles for local-memory access on node-3 : -nan
+Total completed local memory access on node-4 : 0
+	Average no. of cycles for local-memory access on node-4 : -nan
+Total completed local memory access on node-5 : 0
+	Average no. of cycles for local-memory access on node-5 : -nan
+Total completed local memory access on node-6 : 0
+	Average no. of cycles for local-memory access on node-6 : -nan
+Total completed local memory access on node-7 : 0
+	Average no. of cycles for local-memory access on node-7 : -nan
+Total completed local memory access on node-8 : 0
+	Average no. of cycles for local-memory access on node-8 : -nan
+Total completed local memory access on node-9 : 0
+	Average no. of cycles for local-memory access on node-9 : -nan
+Total completed local memory access on node-10 : 0
+	Average no. of cycles for local-memory access on node-10 : -nan
+Total completed local memory access on node-11 : 0
+	Average no. of cycles for local-memory access on node-11 : -nan
+Total completed local memory access on node-12 : 0
+	Average no. of cycles for local-memory access on node-12 : -nan
+Total completed local memory access on node-13 : 0
+	Average no. of cycles for local-memory access on node-13 : -nan
+
+========Disaggregated latency considered as: 300========
+Total completed remote-memory access of node-1 : 0
+	Average no. of cycles for remote-memory access on node-1 : -nan
+Total completed remote-memory access of node-2 : 0
+	Average no. of cycles for remote-memory access on node-2 : -nan
+Total completed remote-memory access of node-3 : 0
+	Average no. of cycles for remote-memory access on node-3 : -nan
+Total completed remote-memory access of node-4 : 0
+	Average no. of cycles for remote-memory access on node-4 : -nan
+Total completed remote-memory access of node-5 : 0
+	Average no. of cycles for remote-memory access on node-5 : -nan
+Total completed remote-memory access of node-6 : 0
+	Average no. of cycles for remote-memory access on node-6 : -nan
+Total completed remote-memory access of node-7 : 0
+	Average no. of cycles for remote-memory access on node-7 : -nan
+Total completed remote-memory access of node-8 : 0
+	Average no. of cycles for remote-memory access on node-8 : -nan
+Total completed remote-memory access of node-9 : 0
+	Average no. of cycles for remote-memory access on node-9 : -nan
+Total completed remote-memory access of node-10 : 0
+	Average no. of cycles for remote-memory access on node-10 : -nan
+Total completed remote-memory access of node-11 : 0
+	Average no. of cycles for remote-memory access on node-11 : -nan
+Total completed remote-memory access of node-12 : 0
+	Average no. of cycles for remote-memory access on node-12 : -nan
+Total completed remote-memory access of node-13 : 0
+	Average no. of cycles for remote-memory access on node-13 : -nan
+
+Total completed memory accesses (Local + Remote) of node-1 : 0
+	Average no. of cycles for local+remote memory access on node-1 : -nan
+Total completed memory accesses (Local + Remote) of node-2 : 0
+	Average no. of cycles for local+remote memory access on node-2 : -nan
+Total completed memory accesses (Local + Remote) of node-3 : 0
+	Average no. of cycles for local+remote memory access on node-3 : -nan
+Total completed memory accesses (Local + Remote) of node-4 : 0
+	Average no. of cycles for local+remote memory access on node-4 : -nan
+Total completed memory accesses (Local + Remote) of node-5 : 0
+	Average no. of cycles for local+remote memory access on node-5 : -nan
+Total completed memory accesses (Local + Remote) of node-6 : 0
+	Average no. of cycles for local+remote memory access on node-6 : -nan
+Total completed memory accesses (Local + Remote) of node-7 : 0
+	Average no. of cycles for local+remote memory access on node-7 : -nan
+Total completed memory accesses (Local + Remote) of node-8 : 0
+	Average no. of cycles for local+remote memory access on node-8 : -nan
+Total completed memory accesses (Local + Remote) of node-9 : 0
+	Average no. of cycles for local+remote memory access on node-9 : -nan
+Total completed memory accesses (Local + Remote) of node-10 : 0
+	Average no. of cycles for local+remote memory access on node-10 : -nan
+Total completed memory accesses (Local + Remote) of node-11 : 0
+	Average no. of cycles for local+remote memory access on node-11 : -nan
+Total completed memory accesses (Local + Remote) of node-12 : 0
+	Average no. of cycles for local+remote memory access on node-12 : -nan
+Total completed memory accesses (Local + Remote) of node-13 : 0
+	Average no. of cycles for local+remote memory access on node-13 : -nan
+
+Total memory accesses completed at remote pool-1 : 0
+	Average no. of cycles for memory access on remote pool-1 : -nan
+Total memory accesses completed at remote pool-2 : 0
+	Average no. of cycles for memory access on remote pool-2 : -nan
+Total memory accesses completed at remote pool-3 : 0
+	Average no. of cycles for memory access on remote pool-3 : -nan
+Total memory accesses completed at remote pool-4 : 0
+	Average no. of cycles for memory access on remote pool-4 : -nan
+
+
+
+=========================Epoch3=========================
+
+Total Memory Accesses till this epoch of simulation= 68431812
+
+
+			Node wise total memory accesses
+--------------------------------------------------------------
+Memory accesses in NODE-1 :3677125
+Memory accesses in NODE-2 :2245677
+Memory accesses in NODE-3 :2170384
+Memory accesses in NODE-4 :8770070
+Memory accesses in NODE-5 :20161439
+Memory accesses in NODE-6 :6947998
+Memory accesses in NODE-7 :5524947
+Memory accesses in NODE-8 :2252327
+Memory accesses in NODE-9 :2610340
+Memory accesses in NODE-10 :2898773
+Memory accesses in NODE-11 :4882544
+Memory accesses in NODE-12 :2788634
+Memory accesses in NODE-13 :3501554
+
+
+	Memory-Unit wise clock cycles completion until last request
+--------------------------------------------------------------
+Total cycles until last request completion in Local Node Mem-1 : 0
+Total cycles until last request completion in Local Node Mem-2 : 0
+Total cycles until last request completion in Local Node Mem-3 : 0
+Total cycles until last request completion in Local Node Mem-4 : 0
+Total cycles until last request completion in Local Node Mem-5 : 0
+Total cycles until last request completion in Local Node Mem-6 : 0
+Total cycles until last request completion in Local Node Mem-7 : 0
+Total cycles until last request completion in Local Node Mem-8 : 0
+Total cycles until last request completion in Local Node Mem-9 : 0
+Total cycles until last request completion in Local Node Mem-10 : 0
+Total cycles until last request completion in Local Node Mem-11 : 0
+Total cycles until last request completion in Local Node Mem-12 : 0
+Total cycles until last request completion in Local Node Mem-13 : 0
+
+--------------------------------------------------------------
+Cycle number until last request completion in Remote Mem Pool-1 : 0
+Cycle number until last request completion in Remote Mem Pool-2 : 0
+Cycle number until last request completion in Remote Mem Pool-3 : 0
+Cycle number until last request completion in Remote Mem Pool-4 : 0
+
+=========================================
+				Node-1
+=========================================
+
+Local_Accesses-1	:3677125
+Remote_Accesses-1	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.219181GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:57457
+Free Pages left 					:991119
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-2
+=========================================
+
+Local_Accesses-2	:2245677
+Remote_Accesses-2	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.134598GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:35284
+Free Pages left 					:1013292
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-3
+=========================================
+
+Local_Accesses-3	:2170384
+Remote_Accesses-3	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.254929GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:66828
+Free Pages left 					:981748
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-4
+=========================================
+
+Local_Accesses-4	:8770070
+Remote_Accesses-4	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.452152GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:118529
+Free Pages left 					:930047
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-5
+=========================================
+
+Local_Accesses-5	:20161439
+Remote_Accesses-5	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:1.20212GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:315128
+Free Pages left 					:733448
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-6
+=========================================
+
+Local_Accesses-6	:6947998
+Remote_Accesses-6	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.526405GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:137994
+Free Pages left 					:910582
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-7
+=========================================
+
+Local_Accesses-7	:5524947
+Remote_Accesses-7	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:1.42409GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:373316
+Free Pages left 					:675260
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-8
+=========================================
+
+Local_Accesses-8	:2252327
+Remote_Accesses-8	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.101788GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:26683
+Free Pages left 					:1021893
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-9
+=========================================
+
+Local_Accesses-9	:2610340
+Remote_Accesses-9	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.680065GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:178275
+Free Pages left 					:870301
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-10
+=========================================
+
+Local_Accesses-10	:2898773
+Remote_Accesses-10	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.171589GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:44981
+Free Pages left 					:1003595
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-11
+=========================================
+
+Local_Accesses-11	:4882544
+Remote_Accesses-11	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.312782GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:81994
+Free Pages left 					:966582
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-12
+=========================================
+
+Local_Accesses-12	:2788634
+Remote_Accesses-12	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.207565GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:54412
+Free Pages left 					:994164
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-13
+=========================================
+
+Local_Accesses-13	:3501554
+Remote_Accesses-13	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.324524GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:85072
+Free Pages left 					:963504
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+========================================================================================
+				Average no. of cycles for memory access
+========================================================================================
+Total completed local memory access on node-1 : 0
+	Average no. of cycles for local-memory access on node-1 : -nan
+Total completed local memory access on node-2 : 0
+	Average no. of cycles for local-memory access on node-2 : -nan
+Total completed local memory access on node-3 : 0
+	Average no. of cycles for local-memory access on node-3 : -nan
+Total completed local memory access on node-4 : 0
+	Average no. of cycles for local-memory access on node-4 : -nan
+Total completed local memory access on node-5 : 0
+	Average no. of cycles for local-memory access on node-5 : -nan
+Total completed local memory access on node-6 : 0
+	Average no. of cycles for local-memory access on node-6 : -nan
+Total completed local memory access on node-7 : 0
+	Average no. of cycles for local-memory access on node-7 : -nan
+Total completed local memory access on node-8 : 0
+	Average no. of cycles for local-memory access on node-8 : -nan
+Total completed local memory access on node-9 : 0
+	Average no. of cycles for local-memory access on node-9 : -nan
+Total completed local memory access on node-10 : 0
+	Average no. of cycles for local-memory access on node-10 : -nan
+Total completed local memory access on node-11 : 0
+	Average no. of cycles for local-memory access on node-11 : -nan
+Total completed local memory access on node-12 : 0
+	Average no. of cycles for local-memory access on node-12 : -nan
+Total completed local memory access on node-13 : 0
+	Average no. of cycles for local-memory access on node-13 : -nan
+
+========Disaggregated latency considered as: 300========
+Total completed remote-memory access of node-1 : 0
+	Average no. of cycles for remote-memory access on node-1 : -nan
+Total completed remote-memory access of node-2 : 0
+	Average no. of cycles for remote-memory access on node-2 : -nan
+Total completed remote-memory access of node-3 : 0
+	Average no. of cycles for remote-memory access on node-3 : -nan
+Total completed remote-memory access of node-4 : 0
+	Average no. of cycles for remote-memory access on node-4 : -nan
+Total completed remote-memory access of node-5 : 0
+	Average no. of cycles for remote-memory access on node-5 : -nan
+Total completed remote-memory access of node-6 : 0
+	Average no. of cycles for remote-memory access on node-6 : -nan
+Total completed remote-memory access of node-7 : 0
+	Average no. of cycles for remote-memory access on node-7 : -nan
+Total completed remote-memory access of node-8 : 0
+	Average no. of cycles for remote-memory access on node-8 : -nan
+Total completed remote-memory access of node-9 : 0
+	Average no. of cycles for remote-memory access on node-9 : -nan
+Total completed remote-memory access of node-10 : 0
+	Average no. of cycles for remote-memory access on node-10 : -nan
+Total completed remote-memory access of node-11 : 0
+	Average no. of cycles for remote-memory access on node-11 : -nan
+Total completed remote-memory access of node-12 : 0
+	Average no. of cycles for remote-memory access on node-12 : -nan
+Total completed remote-memory access of node-13 : 0
+	Average no. of cycles for remote-memory access on node-13 : -nan
+
+Total completed memory accesses (Local + Remote) of node-1 : 0
+	Average no. of cycles for local+remote memory access on node-1 : -nan
+Total completed memory accesses (Local + Remote) of node-2 : 0
+	Average no. of cycles for local+remote memory access on node-2 : -nan
+Total completed memory accesses (Local + Remote) of node-3 : 0
+	Average no. of cycles for local+remote memory access on node-3 : -nan
+Total completed memory accesses (Local + Remote) of node-4 : 0
+	Average no. of cycles for local+remote memory access on node-4 : -nan
+Total completed memory accesses (Local + Remote) of node-5 : 0
+	Average no. of cycles for local+remote memory access on node-5 : -nan
+Total completed memory accesses (Local + Remote) of node-6 : 0
+	Average no. of cycles for local+remote memory access on node-6 : -nan
+Total completed memory accesses (Local + Remote) of node-7 : 0
+	Average no. of cycles for local+remote memory access on node-7 : -nan
+Total completed memory accesses (Local + Remote) of node-8 : 0
+	Average no. of cycles for local+remote memory access on node-8 : -nan
+Total completed memory accesses (Local + Remote) of node-9 : 0
+	Average no. of cycles for local+remote memory access on node-9 : -nan
+Total completed memory accesses (Local + Remote) of node-10 : 0
+	Average no. of cycles for local+remote memory access on node-10 : -nan
+Total completed memory accesses (Local + Remote) of node-11 : 0
+	Average no. of cycles for local+remote memory access on node-11 : -nan
+Total completed memory accesses (Local + Remote) of node-12 : 0
+	Average no. of cycles for local+remote memory access on node-12 : -nan
+Total completed memory accesses (Local + Remote) of node-13 : 0
+	Average no. of cycles for local+remote memory access on node-13 : -nan
+
+Total memory accesses completed at remote pool-1 : 0
+	Average no. of cycles for memory access on remote pool-1 : -nan
+Total memory accesses completed at remote pool-2 : 0
+	Average no. of cycles for memory access on remote pool-2 : -nan
+Total memory accesses completed at remote pool-3 : 0
+	Average no. of cycles for memory access on remote pool-3 : -nan
+Total memory accesses completed at remote pool-4 : 0
+	Average no. of cycles for memory access on remote pool-4 : -nan
+
+
+
+=========================Epoch4=========================
+
+Total Memory Accesses till this epoch of simulation= 91160692
+
+
+			Node wise total memory accesses
+--------------------------------------------------------------
+Memory accesses in NODE-1 :4892702
+Memory accesses in NODE-2 :2988676
+Memory accesses in NODE-3 :3425281
+Memory accesses in NODE-4 :10978513
+Memory accesses in NODE-5 :26728294
+Memory accesses in NODE-6 :9271492
+Memory accesses in NODE-7 :7352446
+Memory accesses in NODE-8 :3182025
+Memory accesses in NODE-9 :3467474
+Memory accesses in NODE-10 :3874100
+Memory accesses in NODE-11 :6217479
+Memory accesses in NODE-12 :4123634
+Memory accesses in NODE-13 :4658576
+
+
+	Memory-Unit wise clock cycles completion until last request
+--------------------------------------------------------------
+Total cycles until last request completion in Local Node Mem-1 : 0
+Total cycles until last request completion in Local Node Mem-2 : 0
+Total cycles until last request completion in Local Node Mem-3 : 0
+Total cycles until last request completion in Local Node Mem-4 : 0
+Total cycles until last request completion in Local Node Mem-5 : 0
+Total cycles until last request completion in Local Node Mem-6 : 0
+Total cycles until last request completion in Local Node Mem-7 : 0
+Total cycles until last request completion in Local Node Mem-8 : 0
+Total cycles until last request completion in Local Node Mem-9 : 0
+Total cycles until last request completion in Local Node Mem-10 : 0
+Total cycles until last request completion in Local Node Mem-11 : 0
+Total cycles until last request completion in Local Node Mem-12 : 0
+Total cycles until last request completion in Local Node Mem-13 : 0
+
+--------------------------------------------------------------
+Cycle number until last request completion in Remote Mem Pool-1 : 0
+Cycle number until last request completion in Remote Mem Pool-2 : 0
+Cycle number until last request completion in Remote Mem Pool-3 : 0
+Cycle number until last request completion in Remote Mem Pool-4 : 0
+
+=========================================
+				Node-1
+=========================================
+
+Local_Accesses-1	:4892702
+Remote_Accesses-1	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.291637GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:76451
+Free Pages left 					:972125
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-2
+=========================================
+
+Local_Accesses-2	:2988676
+Remote_Accesses-2	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.178928GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:46905
+Free Pages left 					:1001671
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-3
+=========================================
+
+Local_Accesses-3	:3425281
+Remote_Accesses-3	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.403053GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:105658
+Free Pages left 					:942918
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-4
+=========================================
+
+Local_Accesses-4	:10978513
+Remote_Accesses-4	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.564194GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:147900
+Free Pages left 					:900676
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-5
+=========================================
+
+Local_Accesses-5	:26728294
+Remote_Accesses-5	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:1.59356GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:417741
+Free Pages left 					:630835
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-6
+=========================================
+
+Local_Accesses-6	:9271492
+Remote_Accesses-6	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.676136GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:177245
+Free Pages left 					:871331
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-7
+=========================================
+
+Local_Accesses-7	:7352446
+Remote_Accesses-7	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:1.89571GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:496949
+Free Pages left 					:551627
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-8
+=========================================
+
+Local_Accesses-8	:3182025
+Remote_Accesses-8	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.101788GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:26683
+Free Pages left 					:1021893
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-9
+=========================================
+
+Local_Accesses-9	:3467474
+Remote_Accesses-9	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.725735GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:190247
+Free Pages left 					:858329
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-10
+=========================================
+
+Local_Accesses-10	:3874100
+Remote_Accesses-10	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.227432GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:59620
+Free Pages left 					:988956
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-11
+=========================================
+
+Local_Accesses-11	:6217479
+Remote_Accesses-11	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.372486GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:97645
+Free Pages left 					:950931
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-12
+=========================================
+
+Local_Accesses-12	:4123634
+Remote_Accesses-12	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.277084GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:72636
+Free Pages left 					:975940
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-13
+=========================================
+
+Local_Accesses-13	:4658576
+Remote_Accesses-13	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.362247GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:94961
+Free Pages left 					:953615
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+========================================================================================
+				Average no. of cycles for memory access
+========================================================================================
+Total completed local memory access on node-1 : 0
+	Average no. of cycles for local-memory access on node-1 : -nan
+Total completed local memory access on node-2 : 0
+	Average no. of cycles for local-memory access on node-2 : -nan
+Total completed local memory access on node-3 : 0
+	Average no. of cycles for local-memory access on node-3 : -nan
+Total completed local memory access on node-4 : 0
+	Average no. of cycles for local-memory access on node-4 : -nan
+Total completed local memory access on node-5 : 0
+	Average no. of cycles for local-memory access on node-5 : -nan
+Total completed local memory access on node-6 : 0
+	Average no. of cycles for local-memory access on node-6 : -nan
+Total completed local memory access on node-7 : 0
+	Average no. of cycles for local-memory access on node-7 : -nan
+Total completed local memory access on node-8 : 0
+	Average no. of cycles for local-memory access on node-8 : -nan
+Total completed local memory access on node-9 : 0
+	Average no. of cycles for local-memory access on node-9 : -nan
+Total completed local memory access on node-10 : 0
+	Average no. of cycles for local-memory access on node-10 : -nan
+Total completed local memory access on node-11 : 0
+	Average no. of cycles for local-memory access on node-11 : -nan
+Total completed local memory access on node-12 : 0
+	Average no. of cycles for local-memory access on node-12 : -nan
+Total completed local memory access on node-13 : 0
+	Average no. of cycles for local-memory access on node-13 : -nan
+
+========Disaggregated latency considered as: 300========
+Total completed remote-memory access of node-1 : 0
+	Average no. of cycles for remote-memory access on node-1 : -nan
+Total completed remote-memory access of node-2 : 0
+	Average no. of cycles for remote-memory access on node-2 : -nan
+Total completed remote-memory access of node-3 : 0
+	Average no. of cycles for remote-memory access on node-3 : -nan
+Total completed remote-memory access of node-4 : 0
+	Average no. of cycles for remote-memory access on node-4 : -nan
+Total completed remote-memory access of node-5 : 0
+	Average no. of cycles for remote-memory access on node-5 : -nan
+Total completed remote-memory access of node-6 : 0
+	Average no. of cycles for remote-memory access on node-6 : -nan
+Total completed remote-memory access of node-7 : 0
+	Average no. of cycles for remote-memory access on node-7 : -nan
+Total completed remote-memory access of node-8 : 0
+	Average no. of cycles for remote-memory access on node-8 : -nan
+Total completed remote-memory access of node-9 : 0
+	Average no. of cycles for remote-memory access on node-9 : -nan
+Total completed remote-memory access of node-10 : 0
+	Average no. of cycles for remote-memory access on node-10 : -nan
+Total completed remote-memory access of node-11 : 0
+	Average no. of cycles for remote-memory access on node-11 : -nan
+Total completed remote-memory access of node-12 : 0
+	Average no. of cycles for remote-memory access on node-12 : -nan
+Total completed remote-memory access of node-13 : 0
+	Average no. of cycles for remote-memory access on node-13 : -nan
+
+Total completed memory accesses (Local + Remote) of node-1 : 0
+	Average no. of cycles for local+remote memory access on node-1 : -nan
+Total completed memory accesses (Local + Remote) of node-2 : 0
+	Average no. of cycles for local+remote memory access on node-2 : -nan
+Total completed memory accesses (Local + Remote) of node-3 : 0
+	Average no. of cycles for local+remote memory access on node-3 : -nan
+Total completed memory accesses (Local + Remote) of node-4 : 0
+	Average no. of cycles for local+remote memory access on node-4 : -nan
+Total completed memory accesses (Local + Remote) of node-5 : 0
+	Average no. of cycles for local+remote memory access on node-5 : -nan
+Total completed memory accesses (Local + Remote) of node-6 : 0
+	Average no. of cycles for local+remote memory access on node-6 : -nan
+Total completed memory accesses (Local + Remote) of node-7 : 0
+	Average no. of cycles for local+remote memory access on node-7 : -nan
+Total completed memory accesses (Local + Remote) of node-8 : 0
+	Average no. of cycles for local+remote memory access on node-8 : -nan
+Total completed memory accesses (Local + Remote) of node-9 : 0
+	Average no. of cycles for local+remote memory access on node-9 : -nan
+Total completed memory accesses (Local + Remote) of node-10 : 0
+	Average no. of cycles for local+remote memory access on node-10 : -nan
+Total completed memory accesses (Local + Remote) of node-11 : 0
+	Average no. of cycles for local+remote memory access on node-11 : -nan
+Total completed memory accesses (Local + Remote) of node-12 : 0
+	Average no. of cycles for local+remote memory access on node-12 : -nan
+Total completed memory accesses (Local + Remote) of node-13 : 0
+	Average no. of cycles for local+remote memory access on node-13 : -nan
+
+Total memory accesses completed at remote pool-1 : 0
+	Average no. of cycles for memory access on remote pool-1 : -nan
+Total memory accesses completed at remote pool-2 : 0
+	Average no. of cycles for memory access on remote pool-2 : -nan
+Total memory accesses completed at remote pool-3 : 0
+	Average no. of cycles for memory access on remote pool-3 : -nan
+Total memory accesses completed at remote pool-4 : 0
+	Average no. of cycles for memory access on remote pool-4 : -nan
+
+
+
+=========================Final_epoch=========================
+
+Total Memory Accesses till this epoch of simulation= 91160692
+
+
+			Node wise total memory accesses
+--------------------------------------------------------------
+Memory accesses in NODE-1 :4892702
+Memory accesses in NODE-2 :2988676
+Memory accesses in NODE-3 :3425281
+Memory accesses in NODE-4 :10978513
+Memory accesses in NODE-5 :26728294
+Memory accesses in NODE-6 :9271492
+Memory accesses in NODE-7 :7352446
+Memory accesses in NODE-8 :3182025
+Memory accesses in NODE-9 :3467474
+Memory accesses in NODE-10 :3874100
+Memory accesses in NODE-11 :6217479
+Memory accesses in NODE-12 :4123634
+Memory accesses in NODE-13 :4658576
+
+
+	Memory-Unit wise clock cycles completion until last request
+--------------------------------------------------------------
+Total cycles until last request completion in Local Node Mem-1 : 0
+Total cycles until last request completion in Local Node Mem-2 : 0
+Total cycles until last request completion in Local Node Mem-3 : 0
+Total cycles until last request completion in Local Node Mem-4 : 0
+Total cycles until last request completion in Local Node Mem-5 : 0
+Total cycles until last request completion in Local Node Mem-6 : 0
+Total cycles until last request completion in Local Node Mem-7 : 0
+Total cycles until last request completion in Local Node Mem-8 : 0
+Total cycles until last request completion in Local Node Mem-9 : 0
+Total cycles until last request completion in Local Node Mem-10 : 0
+Total cycles until last request completion in Local Node Mem-11 : 0
+Total cycles until last request completion in Local Node Mem-12 : 0
+Total cycles until last request completion in Local Node Mem-13 : 0
+
+--------------------------------------------------------------
+Cycle number until last request completion in Remote Mem Pool-1 : 0
+Cycle number until last request completion in Remote Mem Pool-2 : 0
+Cycle number until last request completion in Remote Mem Pool-3 : 0
+Cycle number until last request completion in Remote Mem Pool-4 : 0
+
+=========================================
+				Node-1
+=========================================
+
+Local_Accesses-1	:4892702
+Remote_Accesses-1	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.291637GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:76451
+Free Pages left 					:972125
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-2
+=========================================
+
+Local_Accesses-2	:2988676
+Remote_Accesses-2	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.178928GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:46905
+Free Pages left 					:1001671
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-3
+=========================================
+
+Local_Accesses-3	:3425281
+Remote_Accesses-3	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.403053GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:105658
+Free Pages left 					:942918
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-4
+=========================================
+
+Local_Accesses-4	:10978513
+Remote_Accesses-4	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.564194GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:147900
+Free Pages left 					:900676
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-5
+=========================================
+
+Local_Accesses-5	:26728294
+Remote_Accesses-5	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:1.59356GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:417741
+Free Pages left 					:630835
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-6
+=========================================
+
+Local_Accesses-6	:9271492
+Remote_Accesses-6	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.676136GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:177245
+Free Pages left 					:871331
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-7
+=========================================
+
+Local_Accesses-7	:7352446
+Remote_Accesses-7	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:1.89571GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:496949
+Free Pages left 					:551627
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-8
+=========================================
+
+Local_Accesses-8	:3182025
+Remote_Accesses-8	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.101788GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:26683
+Free Pages left 					:1021893
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-9
+=========================================
+
+Local_Accesses-9	:3467474
+Remote_Accesses-9	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.725735GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:190247
+Free Pages left 					:858329
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-10
+=========================================
+
+Local_Accesses-10	:3874100
+Remote_Accesses-10	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.227432GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:59620
+Free Pages left 					:988956
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-11
+=========================================
+
+Local_Accesses-11	:6217479
+Remote_Accesses-11	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.372486GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:97645
+Free Pages left 					:950931
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-12
+=========================================
+
+Local_Accesses-12	:4123634
+Remote_Accesses-12	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.277084GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:72636
+Free Pages left 					:975940
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+				Node-13
+=========================================
+
+Local_Accesses-13	:4658576
+Remote_Accesses-13	:0
+
+Total memory access in remote pool-1 :0
+Total memory access in remote pool-2 :0
+Total memory access in remote pool-3 :0
+Total memory access in remote pool-4 :0
+
+
+--------------------------------------------------------------------
+Memory Size               			:4GB
+Local Memory Used        			:0.362247GB
+Remote Memory Used        			:0GB
+Total Pages in memory     			:1048576
+	Total local pages 			:1048576
+	Total remote pages 		 	:0
+Total Allocated Pages 				:94961
+Free Pages left 					:953615
+------------------------------------------------------------------
+
+Pool wise page count
+
+--------------------------------------------------------------
+========================================================================================
+				Average no. of cycles for memory access
+========================================================================================
+Total completed local memory access on node-1 : 0
+	Average no. of cycles for local-memory access on node-1 : -nan
+Total completed local memory access on node-2 : 0
+	Average no. of cycles for local-memory access on node-2 : -nan
+Total completed local memory access on node-3 : 0
+	Average no. of cycles for local-memory access on node-3 : -nan
+Total completed local memory access on node-4 : 0
+	Average no. of cycles for local-memory access on node-4 : -nan
+Total completed local memory access on node-5 : 0
+	Average no. of cycles for local-memory access on node-5 : -nan
+Total completed local memory access on node-6 : 0
+	Average no. of cycles for local-memory access on node-6 : -nan
+Total completed local memory access on node-7 : 0
+	Average no. of cycles for local-memory access on node-7 : -nan
+Total completed local memory access on node-8 : 0
+	Average no. of cycles for local-memory access on node-8 : -nan
+Total completed local memory access on node-9 : 0
+	Average no. of cycles for local-memory access on node-9 : -nan
+Total completed local memory access on node-10 : 0
+	Average no. of cycles for local-memory access on node-10 : -nan
+Total completed local memory access on node-11 : 0
+	Average no. of cycles for local-memory access on node-11 : -nan
+Total completed local memory access on node-12 : 0
+	Average no. of cycles for local-memory access on node-12 : -nan
+Total completed local memory access on node-13 : 0
+	Average no. of cycles for local-memory access on node-13 : -nan
+
+========Disaggregated latency considered as: 300========
+Total completed remote-memory access of node-1 : 0
+	Average no. of cycles for remote-memory access on node-1 : -nan
+Total completed remote-memory access of node-2 : 0
+	Average no. of cycles for remote-memory access on node-2 : -nan
+Total completed remote-memory access of node-3 : 0
+	Average no. of cycles for remote-memory access on node-3 : -nan
+Total completed remote-memory access of node-4 : 0
+	Average no. of cycles for remote-memory access on node-4 : -nan
+Total completed remote-memory access of node-5 : 0
+	Average no. of cycles for remote-memory access on node-5 : -nan
+Total completed remote-memory access of node-6 : 0
+	Average no. of cycles for remote-memory access on node-6 : -nan
+Total completed remote-memory access of node-7 : 0
+	Average no. of cycles for remote-memory access on node-7 : -nan
+Total completed remote-memory access of node-8 : 0
+	Average no. of cycles for remote-memory access on node-8 : -nan
+Total completed remote-memory access of node-9 : 0
+	Average no. of cycles for remote-memory access on node-9 : -nan
+Total completed remote-memory access of node-10 : 0
+	Average no. of cycles for remote-memory access on node-10 : -nan
+Total completed remote-memory access of node-11 : 0
+	Average no. of cycles for remote-memory access on node-11 : -nan
+Total completed remote-memory access of node-12 : 0
+	Average no. of cycles for remote-memory access on node-12 : -nan
+Total completed remote-memory access of node-13 : 0
+	Average no. of cycles for remote-memory access on node-13 : -nan
+
+Total completed memory accesses (Local + Remote) of node-1 : 0
+	Average no. of cycles for local+remote memory access on node-1 : -nan
+Total completed memory accesses (Local + Remote) of node-2 : 0
+	Average no. of cycles for local+remote memory access on node-2 : -nan
+Total completed memory accesses (Local + Remote) of node-3 : 0
+	Average no. of cycles for local+remote memory access on node-3 : -nan
+Total completed memory accesses (Local + Remote) of node-4 : 0
+	Average no. of cycles for local+remote memory access on node-4 : -nan
+Total completed memory accesses (Local + Remote) of node-5 : 0
+	Average no. of cycles for local+remote memory access on node-5 : -nan
+Total completed memory accesses (Local + Remote) of node-6 : 0
+	Average no. of cycles for local+remote memory access on node-6 : -nan
+Total completed memory accesses (Local + Remote) of node-7 : 0
+	Average no. of cycles for local+remote memory access on node-7 : -nan
+Total completed memory accesses (Local + Remote) of node-8 : 0
+	Average no. of cycles for local+remote memory access on node-8 : -nan
+Total completed memory accesses (Local + Remote) of node-9 : 0
+	Average no. of cycles for local+remote memory access on node-9 : -nan
+Total completed memory accesses (Local + Remote) of node-10 : 0
+	Average no. of cycles for local+remote memory access on node-10 : -nan
+Total completed memory accesses (Local + Remote) of node-11 : 0
+	Average no. of cycles for local+remote memory access on node-11 : -nan
+Total completed memory accesses (Local + Remote) of node-12 : 0
+	Average no. of cycles for local+remote memory access on node-12 : -nan
+Total completed memory accesses (Local + Remote) of node-13 : 0
+	Average no. of cycles for local+remote memory access on node-13 : -nan
+
+Total memory accesses completed at remote pool-1 : 0
+	Average no. of cycles for memory access on remote pool-1 : -nan
+Total memory accesses completed at remote pool-2 : 0
+	Average no. of cycles for memory access on remote pool-2 : -nan
+Total memory accesses completed at remote pool-3 : 0
+	Average no. of cycles for memory access on remote pool-3 : -nan
+Total memory accesses completed at remote pool-4 : 0
+	Average no. of cycles for memory access on remote pool-4 : -nan
+
+
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet
+Local-Remote Mapping Enteries
+
+
+No entry yet

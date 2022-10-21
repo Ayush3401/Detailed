@@ -1,0 +1,44 @@
+ =======================================================
+ ========================0===============================
+ ============== Printing Statistics [id:0]==============
+   Total Return Transactions : 0 (0 bytes) aggregate average bandwidth 0.000GB/s
+      -Rank   0 : 
+        -Reads  : 0 (0 bytes)
+        -Writes : 0 (0 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 0.000 GB/s		-nan ns
+ == Power Data for Rank        0
+   Average Power (watts)     : 0.000
+     -Background (watts)     : 0.000
+     -Act/Pre    (watts)     : 0.000
+     -Burst      (watts)     : 0.000
+     -Refresh    (watts)     : 0.000
+
+ == Pending Transactions : 0 (0)==
+==== Channel [0] ====
+ =======================================================
+ ========================0===============================
+ ============== Printing Statistics [id:0]==============
+   Total Return Transactions : 4 (256 bytes) aggregate average bandwidth 3.367GB/s
+      -Rank   0 : 
+        -Reads  : 2 (128 bytes)
+        -Writes : 2 (128 bytes)
+        -Bandwidth / Latency  (Bank 0): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 1): 1.684 GB/s		33.320 ns
+        -Bandwidth / Latency  (Bank 2): 0.000 GB/s		-nan ns
+        -Bandwidth / Latency  (Bank 3): 1.684 GB/s		-nan ns
+ == Power Data for Rank        0
+   Average Power (watts)     : 0.584
+     -Background (watts)     : 0.354
+     -Act/Pre    (watts)     : 0.090
+     -Burst      (watts)     : 0.140
+     -Refresh    (watts)     : 0.000
+ ---  Latency list (2)
+       [lat] : #
+       [30-39] : 1
+       [40-49] : 1
+
+ == Pending Transactions : 0 (85)==
+//// Channel [0] ////
