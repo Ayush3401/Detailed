@@ -1,0 +1,947 @@
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.25GB
+	Remote Memory Size			:0.00390625GB
+Local Memory Used        			:4.95911e-05GB
+Remote Memory Used        			:4.57764e-05GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:25
+	Total local allocated pages 		:13
+	Total remote allocated pages 		:12
+Free Pages left 				:66535
+	Total local free pages 			:65523
+	Total remote free pages 		:1012
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000050GB
+Remote Memory Used        			:0.000046GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:25
+	Total local allocated pages 		:13
+	Total remote allocated pages 		:12
+Free Pages left 				:66535
+	Total local free pages 			:65523
+	Total remote free pages 		:1012
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000053GB
+Remote Memory Used        			:0.000050GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:27
+	Total local allocated pages 		:14
+	Total remote allocated pages 		:13
+Free Pages left 				:66533
+	Total local free pages 			:65522
+	Total remote free pages 		:1011
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000065GB
+Remote Memory Used        			:0.000061GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:33
+	Total local allocated pages 		:17
+	Total remote allocated pages 		:16
+Free Pages left 				:66527
+	Total local free pages 			:65519
+	Total remote free pages 		:1008
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000072GB
+Remote Memory Used        			:0.000072GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:38
+	Total local allocated pages 		:19
+	Total remote allocated pages 		:19
+Free Pages left 				:66522
+	Total local free pages 			:65517
+	Total remote free pages 		:1005
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000080GB
+Remote Memory Used        			:0.000076GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:41
+	Total local allocated pages 		:21
+	Total remote allocated pages 		:20
+Free Pages left 				:66519
+	Total local free pages 			:65515
+	Total remote free pages 		:1004
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000080GB
+Remote Memory Used        			:0.000076GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:41
+	Total local allocated pages 		:21
+	Total remote allocated pages 		:20
+Free Pages left 				:66519
+	Total local free pages 			:65515
+	Total remote free pages 		:1004
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000080GB
+Remote Memory Used        			:0.000076GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:41
+	Total local allocated pages 		:21
+	Total remote allocated pages 		:20
+Free Pages left 				:66519
+	Total local free pages 			:65515
+	Total remote free pages 		:1004
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000080GB
+Remote Memory Used        			:0.000076GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:41
+	Total local allocated pages 		:21
+	Total remote allocated pages 		:20
+Free Pages left 				:66519
+	Total local free pages 			:65515
+	Total remote free pages 		:1004
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000080GB
+Remote Memory Used        			:0.000076GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:41
+	Total local allocated pages 		:21
+	Total remote allocated pages 		:20
+Free Pages left 				:66519
+	Total local free pages 			:65515
+	Total remote free pages 		:1004
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000080GB
+Remote Memory Used        			:0.000076GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:41
+	Total local allocated pages 		:21
+	Total remote allocated pages 		:20
+Free Pages left 				:66519
+	Total local free pages 			:65515
+	Total remote free pages 		:1004
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000080GB
+Remote Memory Used        			:0.000076GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:41
+	Total local allocated pages 		:21
+	Total remote allocated pages 		:20
+Free Pages left 				:66519
+	Total local free pages 			:65515
+	Total remote free pages 		:1004
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000080GB
+Remote Memory Used        			:0.000076GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:41
+	Total local allocated pages 		:21
+	Total remote allocated pages 		:20
+Free Pages left 				:66519
+	Total local free pages 			:65515
+	Total remote free pages 		:1004
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000084GB
+Remote Memory Used        			:0.000080GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:43
+	Total local allocated pages 		:22
+	Total remote allocated pages 		:21
+Free Pages left 				:66517
+	Total local free pages 			:65514
+	Total remote free pages 		:1003
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000088GB
+Remote Memory Used        			:0.000084GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:45
+	Total local allocated pages 		:23
+	Total remote allocated pages 		:22
+Free Pages left 				:66515
+	Total local free pages 			:65513
+	Total remote free pages 		:1002
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000092GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:49
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:24
+Free Pages left 				:66511
+	Total local free pages 			:65511
+	Total remote free pages 		:1000
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000092GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:49
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:24
+Free Pages left 				:66511
+	Total local free pages 			:65511
+	Total remote free pages 		:1000
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000092GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:49
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:24
+Free Pages left 				:66511
+	Total local free pages 			:65511
+	Total remote free pages 		:1000
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000092GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:49
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:24
+Free Pages left 				:66511
+	Total local free pages 			:65511
+	Total remote free pages 		:1000
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000092GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:49
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:24
+Free Pages left 				:66511
+	Total local free pages 			:65511
+	Total remote free pages 		:1000
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000092GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:49
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:24
+Free Pages left 				:66511
+	Total local free pages 			:65511
+	Total remote free pages 		:1000
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000092GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:49
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:24
+Free Pages left 				:66511
+	Total local free pages 			:65511
+	Total remote free pages 		:1000
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000092GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:49
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:24
+Free Pages left 				:66511
+	Total local free pages 			:65511
+	Total remote free pages 		:1000
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000095GB
+Remote Memory Used        			:0.000095GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:50
+	Total local allocated pages 		:25
+	Total remote allocated pages 		:25
+Free Pages left 				:66510
+	Total local free pages 			:65511
+	Total remote free pages 		:999
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000107GB
+Remote Memory Used        			:0.000103GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:55
+	Total local allocated pages 		:28
+	Total remote allocated pages 		:27
+Free Pages left 				:66505
+	Total local free pages 			:65508
+	Total remote free pages 		:997
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1
+
+			S.No.	 local_base	 remote_base	 mask	 size	 num_pages	 mem_pool
+			-----------------------------------------------------------------------------
+              1        0x10000          0x0         12       4MB      1024         0
+			-----------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.250000GB
+	Remote Memory Size			:0.003906GB
+Local Memory Used        			:0.000111GB
+Remote Memory Used        			:0.000107GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:57
+	Total local allocated pages 		:29
+	Total remote allocated pages 		:28
+Free Pages left 				:66503
+	Total local free pages 			:65507
+	Total remote free pages 		:996
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1

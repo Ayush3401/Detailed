@@ -1,0 +1,23 @@
+
+--------------------------------------------------------------------
+Memory Size               			:0.253906GB
+	Local Memory Size			:0.25GB
+	Remote Memory Size			:0.00390625GB
+Local Memory Used        			:0.000148773GB
+Remote Memory Used        			:0.000144958GB
+Total Pages in memory     			:66560
+	Total local pages 			 :65536
+	Total remote pages 		 	:1024
+Total Allocated Pages 				:77
+	Total local allocated pages 		:39
+	Total remote allocated pages 		:38
+Free Pages left 				:66483
+	Total local free pages 			:65497
+	Total remote free pages 		:986
+------------------------------------------------------------------
+
+
+------ Pool Wise Page Count --------------
+
+-------Local-Remote Mapping Entries--------------
+						Node Remote-Memory Mapping Table Node-1

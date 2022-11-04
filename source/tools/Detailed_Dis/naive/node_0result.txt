@@ -1,0 +1,426 @@
+
+-------------Epoch_Number------------------1-------------
+-------------Node-ID- 0-------------
+-------------Core Statistics-------------
+
+-------------core-ID- 0-------------
+ Total Issued instructions: 1248
+ Total executed instructions: 1184
+ Total committed instructions: 1139
+ Total Load-store sent to memory:(include redundant loads to store address) 548
+ Total Load-store completed:(does not include redundant loads to store address) 497
+IPC is: 0.01139
+CPI is: 87.7963
+avg local access time:291
+avg remote access time:255.723
+
+-------------Core Statistics-------------
+
+-------------core-ID- 1-------------
+ Total Issued instructions: 2453
+ Total executed instructions: 2389
+ Total committed instructions: 2356
+ Total Load-store sent to memory:(include redundant loads to store address) 823
+ Total Load-store completed:(does not include redundant loads to store address) 768
+IPC is: 0.02356
+CPI is: 42.4448
+avg local access time:75.4079
+avg remote access time:254.918
+
+-------------Core Statistics-------------
+
+-------------core-ID- 2-------------
+ Total Issued instructions: 3898
+ Total executed instructions: 3834
+ Total committed instructions: 3819
+ Total Load-store sent to memory:(include redundant loads to store address) 1025
+ Total Load-store completed:(does not include redundant loads to store address) 969
+IPC is: 0.03819
+CPI is: 26.1849
+avg local access time:88.0235
+avg remote access time:261.125
+
+-------------Core Statistics-------------
+
+-------------core-ID- 3-------------
+ Total Issued instructions: 6327
+ Total executed instructions: 6269
+ Total committed instructions: 6137
+ Total Load-store sent to memory:(include redundant loads to store address) 1166
+ Total Load-store completed:(does not include redundant loads to store address) 1150
+IPC is: 0.06137
+CPI is: 16.2946
+avg local access time:77.4044
+avg remote access time:253.586
+
+
+----------------Node 0 Statistics---------------
+ Total Issued instructions: 13926
+ Total executed instructions: 13676
+ Total committed instructions: 13451
+ Total Load-store sent to memory:(include redundant loads to store address): 3562
+ Total Load-store completed:(does not include redundant loads to store address): 3384
+IPC is: 0.13451
+CPI is: 7.43439
+Total local memory accesses sent: 844
+Total local memory accesses completed: 844
+Total remote memory accesses sent: 214
+Total remote memory accesses completed: 214
+avg node local access time: 176.871
+
+avg node remote access time: 256.126
+
+-------------Epoch_Number------------------2-------------
+-------------Node-ID- 0-------------
+-------------Core Statistics-------------
+
+-------------core-ID- 0-------------
+ Total Issued instructions: 12466
+ Total executed instructions: 12466
+ Total committed instructions: 12466
+ Total Load-store sent to memory:(include redundant loads to store address) 4425
+ Total Load-store completed:(does not include redundant loads to store address) 4349
+IPC is: 0.06233
+CPI is: 16.0436
+avg local access time:186.449
+avg remote access time:254.476
+
+-------------Core Statistics-------------
+
+-------------core-ID- 1-------------
+ Total Issued instructions: 27797
+ Total executed instructions: 27728
+ Total committed instructions: 27633
+ Total Load-store sent to memory:(include redundant loads to store address) 5346
+ Total Load-store completed:(does not include redundant loads to store address) 5232
+IPC is: 0.138165
+CPI is: 7.23772
+avg local access time:71.9317
+avg remote access time:253.526
+
+-------------Core Statistics-------------
+
+-------------core-ID- 2-------------
+ Total Issued instructions: 24490
+ Total executed instructions: 24489
+ Total committed instructions: 24489
+ Total Load-store sent to memory:(include redundant loads to store address) 4774
+ Total Load-store completed:(does not include redundant loads to store address) 4671
+IPC is: 0.122445
+CPI is: 8.16693
+avg local access time:84.1169
+avg remote access time:260.717
+
+-------------Core Statistics-------------
+
+-------------core-ID- 3-------------
+ Total Issued instructions: 27353
+ Total executed instructions: 27284
+ Total committed instructions: 27258
+ Total Load-store sent to memory:(include redundant loads to store address) 5153
+ Total Load-store completed:(does not include redundant loads to store address) 5045
+IPC is: 0.13629
+CPI is: 7.3373
+avg local access time:70.9034
+avg remote access time:252.356
+
+
+----------------Node 0 Statistics---------------
+ Total Issued instructions: 92106
+ Total executed instructions: 91967
+ Total committed instructions: 91846
+ Total Load-store sent to memory:(include redundant loads to store address): 19698
+ Total Load-store completed:(does not include redundant loads to store address): 19297
+IPC is: 0.45923
+CPI is: 2.17756
+Total local memory accesses sent: 2070
+Total local memory accesses completed: 2070
+Total remote memory accesses sent: 503
+Total remote memory accesses completed: 503
+avg node local access time: 151.293
+
+avg node remote access time: 254.765
+
+-------------Epoch_Number------------------3-------------
+-------------Node-ID- 0-------------
+-------------Core Statistics-------------
+
+-------------core-ID- 0-------------
+ Total Issued instructions: 45464
+ Total executed instructions: 45396
+ Total committed instructions: 45302
+ Total Load-store sent to memory:(include redundant loads to store address) 10802
+ Total Load-store completed:(does not include redundant loads to store address) 10568
+IPC is: 0.151007
+CPI is: 6.62222
+avg local access time:182.523
+avg remote access time:254.898
+
+-------------Core Statistics-------------
+
+-------------core-ID- 1-------------
+ Total Issued instructions: 55552
+ Total executed instructions: 55484
+ Total committed instructions: 55368
+ Total Load-store sent to memory:(include redundant loads to store address) 10820
+ Total Load-store completed:(does not include redundant loads to store address) 10607
+IPC is: 0.18456
+CPI is: 5.41829
+avg local access time:72.4178
+avg remote access time:253.11
+
+-------------Core Statistics-------------
+
+-------------core-ID- 2-------------
+ Total Issued instructions: 51638
+ Total executed instructions: 51570
+ Total committed instructions: 51469
+ Total Load-store sent to memory:(include redundant loads to store address) 10123
+ Total Load-store completed:(does not include redundant loads to store address) 9905
+IPC is: 0.171563
+CPI is: 5.82875
+avg local access time:81.5057
+avg remote access time:259.734
+
+-------------Core Statistics-------------
+
+-------------core-ID- 3-------------
+ Total Issued instructions: 51037
+ Total executed instructions: 50969
+ Total committed instructions: 50928
+ Total Load-store sent to memory:(include redundant loads to store address) 9821
+ Total Load-store completed:(does not include redundant loads to store address) 9618
+IPC is: 0.16976
+CPI is: 5.89067
+avg local access time:69.8225
+avg remote access time:252.356
+
+
+----------------Node 0 Statistics---------------
+ Total Issued instructions: 203691
+ Total executed instructions: 203419
+ Total committed instructions: 203067
+ Total Load-store sent to memory:(include redundant loads to store address): 41566
+ Total Load-store completed:(does not include redundant loads to store address): 40698
+IPC is: 0.67689
+CPI is: 1.47734
+Total local memory accesses sent: 2171
+Total local memory accesses completed: 2171
+Total remote memory accesses sent: 523
+Total remote memory accesses completed: 523
+avg node local access time: 146.79
+
+avg node remote access time: 254.855
+
+-------------Epoch_Number------------------4-------------
+-------------Node-ID- 0-------------
+-------------Core Statistics-------------
+
+-------------core-ID- 0-------------
+ Total Issued instructions: 90609
+ Total executed instructions: 90541
+ Total committed instructions: 90479
+ Total Load-store sent to memory:(include redundant loads to store address) 19708
+ Total Load-store completed:(does not include redundant loads to store address) 19246
+IPC is: 0.226197
+CPI is: 4.42092
+avg local access time:179.248
+avg remote access time:254.678
+
+-------------Core Statistics-------------
+
+-------------core-ID- 1-------------
+ Total Issued instructions: 94198
+ Total executed instructions: 94129
+ Total committed instructions: 94020
+ Total Load-store sent to memory:(include redundant loads to store address) 18439
+ Total Load-store completed:(does not include redundant loads to store address) 18025
+IPC is: 0.23505
+CPI is: 4.25441
+avg local access time:69.0275
+avg remote access time:252.557
+
+-------------Core Statistics-------------
+
+-------------core-ID- 2-------------
+ Total Issued instructions: 90673
+ Total executed instructions: 90673
+ Total committed instructions: 90673
+ Total Load-store sent to memory:(include redundant loads to store address) 17827
+ Total Load-store completed:(does not include redundant loads to store address) 17438
+IPC is: 0.226683
+CPI is: 4.41146
+avg local access time:78.4763
+avg remote access time:258.391
+
+-------------Core Statistics-------------
+
+-------------core-ID- 3-------------
+ Total Issued instructions: 89383
+ Total executed instructions: 89315
+ Total committed instructions: 89201
+ Total Load-store sent to memory:(include redundant loads to store address) 17375
+ Total Load-store completed:(does not include redundant loads to store address) 16965
+IPC is: 0.223002
+CPI is: 4.48425
+avg local access time:66.678
+avg remote access time:252.356
+
+
+----------------Node 0 Statistics---------------
+ Total Issued instructions: 364863
+ Total executed instructions: 364658
+ Total committed instructions: 364373
+ Total Load-store sent to memory:(include redundant loads to store address): 73349
+ Total Load-store completed:(does not include redundant loads to store address): 71674
+IPC is: 0.910932
+CPI is: 1.09778
+Total local memory accesses sent: 2300
+Total local memory accesses completed: 2300
+Total remote memory accesses sent: 541
+Total remote memory accesses completed: 541
+avg node local access time: 141.138
+
+avg node remote access time: 254.494
+
+-------------Epoch_Number------------------5-------------
+-------------Node-ID- 0-------------
+-------------Core Statistics-------------
+
+-------------core-ID- 0-------------
+ Total Issued instructions: 135687
+ Total executed instructions: 135620
+ Total committed instructions: 135524
+ Total Load-store sent to memory:(include redundant loads to store address) 28590
+ Total Load-store completed:(does not include redundant loads to store address) 27912
+IPC is: 0.271048
+CPI is: 3.68938
+avg local access time:176.386
+avg remote access time:254.465
+
+-------------Core Statistics-------------
+
+-------------core-ID- 1-------------
+ Total Issued instructions: 135060
+ Total executed instructions: 134992
+ Total committed instructions: 134868
+ Total Load-store sent to memory:(include redundant loads to store address) 26489
+ Total Load-store completed:(does not include redundant loads to store address) 25898
+IPC is: 0.269736
+CPI is: 3.70733
+avg local access time:66.1498
+avg remote access time:252
+
+-------------Core Statistics-------------
+
+-------------core-ID- 2-------------
+ Total Issued instructions: 135292
+ Total executed instructions: 135224
+ Total committed instructions: 135148
+ Total Load-store sent to memory:(include redundant loads to store address) 26617
+ Total Load-store completed:(does not include redundant loads to store address) 25995
+IPC is: 0.270296
+CPI is: 3.69965
+avg local access time:75.0976
+avg remote access time:262.921
+
+-------------Core Statistics-------------
+
+-------------core-ID- 3-------------
+ Total Issued instructions: 131196
+ Total executed instructions: 131188
+ Total committed instructions: 131183
+ Total Load-store sent to memory:(include redundant loads to store address) 25626
+ Total Load-store completed:(does not include redundant loads to store address) 25035
+IPC is: 0.262366
+CPI is: 3.81147
+avg local access time:64.5082
+avg remote access time:252.356
+
+
+----------------Node 0 Statistics---------------
+ Total Issued instructions: 537235
+ Total executed instructions: 537024
+ Total committed instructions: 536723
+ Total Load-store sent to memory:(include redundant loads to store address): 107322
+ Total Load-store completed:(does not include redundant loads to store address): 104840
+IPC is: 1.07345
+CPI is: 0.931579
+Total local memory accesses sent: 2435
+Total local memory accesses completed: 2435
+Total remote memory accesses sent: 562
+Total remote memory accesses completed: 562
+avg node local access time: 135.828
+
+avg node remote access time: 254.918
+
+-------------Epoch_Number------------------6-------------
+-------------Node-ID- 0-------------
+-------------Core Statistics-------------
+
+-------------core-ID- 0-------------
+ Total Issued instructions: 180936
+ Total executed instructions: 180867
+ Total committed instructions: 180789
+ Total Load-store sent to memory:(include redundant loads to store address) 37511
+ Total Load-store completed:(does not include redundant loads to store address) 36522
+IPC is: 0.301315
+CPI is: 3.31879
+avg local access time:174.223
+avg remote access time:254.345
+
+-------------Core Statistics-------------
+
+-------------core-ID- 1-------------
+ Total Issued instructions: 176316
+ Total executed instructions: 176249
+ Total committed instructions: 176149
+ Total Load-store sent to memory:(include redundant loads to store address) 34620
+ Total Load-store completed:(does not include redundant loads to store address) 33820
+IPC is: 0.293582
+CPI is: 3.40621
+avg local access time:64.0095
+avg remote access time:254.049
+
+-------------Core Statistics-------------
+
+-------------core-ID- 2-------------
+ Total Issued instructions: 180251
+ Total executed instructions: 180184
+ Total committed instructions: 180059
+ Total Load-store sent to memory:(include redundant loads to store address) 35475
+ Total Load-store completed:(does not include redundant loads to store address) 34648
+IPC is: 0.300098
+CPI is: 3.33224
+avg local access time:73.416
+avg remote access time:261.41
+
+-------------Core Statistics-------------
+
+-------------core-ID- 3-------------
+ Total Issued instructions: 174204
+ Total executed instructions: 174136
+ Total committed instructions: 174062
+ Total Load-store sent to memory:(include redundant loads to store address) 34103
+ Total Load-store completed:(does not include redundant loads to store address) 33285
+IPC is: 0.290103
+CPI is: 3.44705
+avg local access time:63.5959
+avg remote access time:252.356
+
+
+----------------Node 0 Statistics---------------
+ Total Issued instructions: 711707
+ Total executed instructions: 711436
+ Total committed instructions: 711059
+ Total Load-store sent to memory:(include redundant loads to store address): 141709
+ Total Load-store completed:(does not include redundant loads to store address): 138275
+IPC is: 1.1851
+CPI is: 0.843812
+Total local memory accesses sent: 2568
+Total local memory accesses completed: 2568
+Total remote memory accesses sent: 582
+Total remote memory accesses completed: 582
+avg node local access time: 131.764
+
+avg node remote access time: 255.052
